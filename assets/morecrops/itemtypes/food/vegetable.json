@@ -5,9 +5,33 @@
 		{ code: "vegetable", states: ["beet", "cauliflower", "corn", "eggplant", "jalapeno", "potato", "yam"] },
 	],
 	attributesByType: {
+		"*beet*": {
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "morecrops:cookedvegetable-beet-partbaked"
+			},
+			onDisplayTransform: {
+				translation: { x: 0.1, y: -0.4, z: 0.1 },
+				rotation: { x: 2, y: -47, z: -91 }
+			}
+		},
 		"*": {
 			displaycaseable: true,
 			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "morecrops:cookedvegetable-{vegetable}-partbaked"
+			},
 		}
 	},
 	
@@ -15,6 +39,16 @@
 		base: "morecrops:item/crop/vegetable/{vegetable}"
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
+	combustiblePropsByType: {
+		"*": {
+			meltingPoint: 150,
+			meltingDuration: 20,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: { type: "item", code: "morecrops:cookedvegetable-{vegetable}-charred" },
+			requiresContainer: false
+		}
+	},
 	nutritionPropsByType: {
 		"*-beet": { satiety: 100, foodcategory: "Vegetable" },
 		"*-cauliflower": { satiety: 315, foodcategory: "Vegetable" },
