@@ -1,0 +1,29 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"stemandlsmallleaves": "morecrops:block/plant/crop/jalapeno/stemandlsmallleaves"
+	},
+	"elements": [
+		{
+			"name": "sprout",
+			"from": [ 8.0, 0.0, 7.2 ], 
+			"to": [ 8.0, 3.0, 8.8 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": -45.0,
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "enabled": false },
+				"east": { "texture": "#stemandlsmallleaves", "uv": [ 6.0, 3.5, 8.5, 7.5 ], "autoUv": false, "windMode": [0,7,7,0] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.5, 3.0 ], "enabled": false, "windMode": [0,0,7,7] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "enabled": false, "windMode": [-1,-1,-1,-1] }
+			}
+		}
+	]}
