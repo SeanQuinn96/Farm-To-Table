@@ -1,0 +1,9 @@
+{
+	code: "pickledvegetable",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "game:brineportion", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "morecrops:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["potato" ] }
+	],
+	output: { type: "item", code: "morecrops:pickledvegetable-pickledpotato", stackSize: 1 }
+}

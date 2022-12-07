@@ -1,0 +1,193 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"fill-pickledpotato": "morecrops:fill-pickledpotato"
+	},
+	"elements": [
+		{
+			"name": "choppedbit1",
+			"from": [ 6.5, 0.0, 8.5 ], 
+			"to": [ 7.3, 0.6, 9.3 ], 
+			"rotationOrigin": [ 6.9, 0.3, 8.9 ],
+			"rotationY": -62.0,
+			"faces": {
+				"north": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			}
+		},
+		{
+			"name": "choppedbit2",
+			"from": [ 7.5, 0.0, 6.5 ], 
+			"to": [ 8.3, 0.6, 7.3 ], 
+			"rotationOrigin": [ 7.9, 0.3, 6.9 ],
+			"rotationY": 8.0,
+			"faces": {
+				"north": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			}
+		},
+		{
+			"name": "choppedbit3",
+			"from": [ 7.5, 0.0, 7.5 ], 
+			"to": [ 8.3, 0.6, 8.3 ], 
+			"rotationOrigin": [ 7.9, 0.3, 7.9 ],
+			"rotationY": 24.0,
+			"faces": {
+				"north": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			}
+		},
+		{
+			"name": "choppedbit4",
+			"from": [ 8.5, 0.0, 8.5 ], 
+			"to": [ 9.3, 0.6, 9.3 ], 
+			"rotationOrigin": [ 8.9, 0.3, 8.9 ],
+			"rotationY": 12.0,
+			"faces": {
+				"north": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			}
+		},
+		{
+			"name": "choppedbit5",
+			"from": [ 6.5, 0.0, 6.5 ], 
+			"to": [ 7.3, 0.6, 7.3 ], 
+			"rotationOrigin": [ 6.9, 0.3, 6.9 ],
+			"rotationY": -20.0,
+			"faces": {
+				"north": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			}
+		},
+		{
+			"name": "choppedbit6",
+			"from": [ 6.5, 0.0, 7.5 ], 
+			"to": [ 7.3, 0.6, 8.3 ], 
+			"rotationOrigin": [ 6.9, 0.3, 7.9 ],
+			"rotationY": 4.0,
+			"faces": {
+				"north": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			}
+		},
+		{
+			"name": "choppedbit7",
+			"from": [ 7.5, 0.0, 8.5 ], 
+			"to": [ 8.3, 0.6, 9.3 ], 
+			"rotationOrigin": [ 7.9, 0.3, 8.9 ],
+			"rotationY": 19.0,
+			"faces": {
+				"north": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			}
+		},
+		{
+			"name": "choppedbit8",
+			"from": [ 8.5, 0.0, 6.5 ], 
+			"to": [ 9.3, 0.6, 7.3 ], 
+			"rotationOrigin": [ 8.9, 0.3, 6.9 ],
+			"rotationY": -17.0,
+			"faces": {
+				"north": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			}
+		},
+		{
+			"name": "choppedbit9",
+			"from": [ 8.5, 0.0, 7.5 ], 
+			"to": [ 9.3, 0.6, 8.3 ], 
+			"rotationOrigin": [ 8.9, 0.3, 7.9 ],
+			"rotationY": -10.0,
+			"faces": {
+				"north": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			}
+		},
+		{
+			"name": "choppedbit10",
+			"from": [ 5.5, 0.0, 7.0 ], 
+			"to": [ 6.3, 0.6, 7.8 ], 
+			"rotationOrigin": [ 5.9, 0.3, 7.4 ],
+			"rotationY": 12.0,
+			"faces": {
+				"north": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			}
+		},
+		{
+			"name": "choppedbit11",
+			"from": [ 7.5, 0.0, 9.5 ], 
+			"to": [ 8.3, 0.6, 10.3 ], 
+			"rotationOrigin": [ 7.9, 0.3, 9.9 ],
+			"rotationY": -9.0,
+			"faces": {
+				"north": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			}
+		},
+		{
+			"name": "choppedbit12",
+			"from": [ 9.5, 0.0, 7.5 ], 
+			"to": [ 10.3, 0.6, 8.3 ], 
+			"rotationOrigin": [ 9.9, 0.3, 7.9 ],
+			"faces": {
+				"north": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#fill-pickledpotato", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			}
+		}
+	]}

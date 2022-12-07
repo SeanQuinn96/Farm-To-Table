@@ -1,0 +1,1337 @@
+{
+	code: "cookedvegetable",
+	maxstacksize: 64,
+	variantgroups: [
+		{ code: "type", states: ["potato", "yam", "cauliflower", "corn", "beet", "eggplant", "jalapeno", "pickledpotato", "pickledyam", "pickledcauliflower", "pickledbeet", "pickledeggplant", "pickledjalapeno" ] },
+		{ code: "state", states: ["partbaked", "perfect", "charred" ] }
+	],
+	shapeByType: {
+		"*-pickledpotato-*": {base: "morecrops:item/food/pickledvegetable/pickledpotato"},
+		"*-pickledyam-*": {base: "morecrops:item/food/pickledvegetable/pickledyam"},
+		"*-pickledbeet-*": {base: "morecrops:item/food/pickledvegetable/pickledbeet"},
+		"*-pickledcauliflower-*": {base: "morecrops:item/food/pickledvegetable/pickledcauliflower"},
+		"*-pickledeggplant-*": {base: "morecrops:item/food/pickledvegetable/pickledeggplant"},
+		"*-pickledjalapeno-*": {base: "morecrops:item/food/pickledvegetable/pickledjalapeno"},
+		"*-beet-*": {base: "morecrops:item/crop/vegetable/beet"},
+		"*-cauliflower-*": {base: "morecrops:item/crop/vegetable/cauliflower"},
+		"*-corn-*": {base: "morecrops:item/crop/vegetable/corn"},
+		"*-eggplant-*": {base: "morecrops:item/crop/vegetable/eggplant"},
+		"*-jalapeno-*": {base: "morecrops:item/crop/vegetable/jalapeno"},
+		"*-potato-*": {base: "morecrops:item/crop/vegetable/potato"},
+		"*-yam-*": {base: "morecrops:item/crop/vegetable/yam"},
+		"*": { base: "morecrops:item/food/vegetable/{type}"},
+	},
+	texturesByType: {
+		"*-partbaked": {
+			"potato": {base: "morecrops:item/food/partbaked/potato"},
+			"bulb": {base: "morecrops:item/food/partbaked/yam"},
+			"top": {base: "morecrops:item/food/partbaked/cauliflower"},
+			"normal1": {base: "morecrops:item/food/partbaked/corn"},
+			"item": {base: "morecrops:item/food/partbaked/beet"},
+			"eggplant": {base: "morecrops:item/food/partbaked/eggplant"},
+			"largeleavesjalapenos": {base: "morecrops:item/food/partbaked/jalapeno"},
+			"pickledpotato": {base: "morecrops:item/food/partbaked/pickledpotato"},
+			"pickledyam": {base: "morecrops:item/food/partbaked/pickledyam"},
+			"top": {base: "morecrops:item/food/partbaked/pickledcauliflower"},
+			"item": {base: "morecrops:item/food/partbaked/pickledbeet"},
+			"eggplant": {base: "morecrops:item/food/partbaked/pickledeggplant"},
+			"jalapeno": {base: "morecrops:item/food/partbaked/pickledjalapeno"},
+			"e5": {base: "game:block/transparent"},
+			"s5": {base: "game:block/transparent"},
+			"e3": {base: "game:block/transparent"}
+		},
+		"*-perfect": {
+			"potato": {base: "morecrops:item/food/perfect/potato"},
+			"bulb": {base: "morecrops:item/food/perfect/yam"},
+			"top": {base: "morecrops:item/food/perfect/cauliflower"},
+			"normal1": {base: "morecrops:item/food/perfect/corn"},
+			"item": {base: "morecrops:item/food/perfect/beet"},
+			"eggplant": {base: "morecrops:item/food/perfect/eggplant"},
+			"largeleavesjalapenos": {base: "morecrops:item/food/perfect/jalapeno"},
+			"pickledpotato": {base: "morecrops:item/food/perfect/pickledpotato"},
+			"pickledyam": {base: "morecrops:item/food/perfect/pickledyam"},
+			"top": {base: "morecrops:item/food/perfect/pickledcauliflower"},
+			"item": {base: "morecrops:item/food/perfect/pickledbeet"},
+			"eggplant": {base: "morecrops:item/food/perfect/pickledeggplant"},
+			"jalapeno": {base: "morecrops:item/food/perfect/pickledjalapeno"},
+			"e5": {base: "game:block/transparent"},
+			"s5": {base: "game:block/transparent"},
+			"e3": {base: "game:block/transparent"}
+		},
+		"*-charred": {
+			"potato": {base: "morecrops:item/food/charred/potato"},
+			"bulb": {base: "morecrops:item/food/charred/yam"},
+			"top": {base: "morecrops:item/food/charred/cauliflower"},
+			"normal1": {base: "morecrops:item/food/charred/corn"},
+			"item": {base: "morecrops:item/food/charred/beet"},
+			"eggplant": {base: "morecrops:item/food/charred/eggplant"},
+			"largeleavesjalapenos": {base: "morecrops:item/food/charred/jalapeno"},
+			"pickledpotato": {base: "morecrops:item/food/charred/pickledpotato"},
+			"pickledyam": {base: "morecrops:item/food/charred/pickledyam"},
+			"top": {base: "morecrops:item/food/charred/pickledcauliflower"},
+			"item": {base: "morecrops:item/food/charred/pickledbeet"},
+			"eggplant": {base: "morecrops:item/food/charred/pickledeggplant"},
+			"jalapeno": {base: "morecrops:item/food/charred/pickledjalapeno"},
+			"e5": {base: "game:block/transparent"},
+			"s5": {base: "game:block/transparent"},
+			"e3": {base: "game:block/transparent"}
+		},
+	},
+	attributesByType: {
+		"cookedvegetable-potato-partbaked": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 0.95,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-potato-perfect",
+				initialCode: "morecrops:vegetable-potato"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-potato-perfect": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 0.95,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-potato-charred",
+				initialCode: "morecrops:cookedvegetable-potato-partbaked"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-potato-charred": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "morecrops:cookedvegetable-potato-perfect"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-yam-partbaked": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 0.95,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-yam-perfect",
+				initialCode: "morecrops:vegetable-yam"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-yam-perfect": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 0.95,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-yam-charred",
+				initialCode: "morecrops:cookedvegetable-yam-partbaked"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-yam-charred": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "morecrops:cookedvegetable-yam-perfect"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-cauliflower-partbaked": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 0.97,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-cauliflower-perfect",
+				initialCode: "morecrops:vegetable-cauliflower"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.045, z: 0 },
+				scale: 0.9 
+			}
+		},
+		"cookedvegetable-cauliflower-perfect": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 0.97,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-cauliflower-charred",
+				initialCode: "morecrops:cookedvegetable-cauliflower-partbaked"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.045, z: 0 },
+				scale: 0.9 
+			}
+		},
+		"cookedvegetable-cauliflower-charred": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "morecrops:cookedvegetable-cauliflower-perfect"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.045, z: 0 },
+				scale: 0.9 
+			}
+		},
+		"cookedvegetable-corn-partbaked": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-corn-perfect",
+				initialCode: "morecrops:vegetable-corn"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-corn-perfect": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-corn-charred",
+				initialCode: "morecrops:cookedvegetable-corn-partbaked"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-corn-charred": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "morecrops:cookedvegetable-corn-perfect"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-beet-partbaked": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-beet-perfect",
+				initialCode: "morecrops:vegetable-beet"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.194, z: 0 },
+				rotation: { x: 90, y: 0, z: 0 },
+				scale: 0.9 
+			}
+		},
+		"cookedvegetable-beet-perfect": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-beet-charred",
+				initialCode: "morecrops:cookedvegetable-beet-partbaked"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.194, z: 0 },
+				rotation: { x: 90, y: 0, z: 0 },
+				scale: 0.9   
+			}
+		},
+		"cookedvegetable-beet-charred": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "morecrops:cookedvegetable-beet-perfect"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.194, z: 0 },
+				rotation: { x: 90, y: 0, z: 0 },
+				scale: 0.9      
+			}
+		},
+		"cookedvegetable-eggplant-partbaked": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-eggplant-perfect",
+				initialCode: "morecrops:vegetable-eggplant"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: 0, y: 45, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-eggplant-perfect": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-eggplant-charred",
+				initialCode: "morecrops:cookedvegetable-eggplant-partbaked"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: 0, y: 45, z: 0 },
+				scale: 1   
+			}
+		},
+		"cookedvegetable-eggplant-charred": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "morecrops:cookedvegetable-eggplant-perfect"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: 0, y: 45, z: 0 },
+				scale: 1  
+			}
+		},
+		"cookedvegetable-jalapeno-partbaked": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 0.95,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-jalapeno-perfect",
+				initialCode: "morecrops:vegetable-jalapeno"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-jalapeno-perfect": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 0.95,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-jalapeno-charred",
+				initialCode: "morecrops:cookedvegetable-jalapeno-partbaked"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-jalapeno-charred": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "morecrops:cookedvegetable-jalapeno-perfect"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-pickledpotato-partbaked": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-pickledpotato-perfect",
+				initialCode: "morecrops:vegetable-pickledpotato"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-pickledpotato-perfect": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-pickledpotato-charred",
+				initialCode: "morecrops:cookedvegetable-pickledpotato-partbaked"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-pickledpotato-charred": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "morecrops:cookedvegetable-pickledpotato-perfect"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-pickledyam-partbaked": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-pickledyam-perfect",
+				initialCode: "morecrops:vegetable-pickledyam"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-pickledyam-perfect": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-pickledyam-charred",
+				initialCode: "morecrops:cookedvegetable-pickledyam-partbaked"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-pickledyam-charred": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "morecrops:cookedvegetable-pickledyam-perfect"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+
+
+		"cookedvegetable-pickledcauliflower-partbaked": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 0.97,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-pickledcauliflower-perfect",
+				initialCode: "morecrops:vegetable-pickledcauliflower"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.048, z: 0 },
+				scale: 0.9 
+			}
+		},
+		"cookedvegetable-pickledcauliflower-perfect": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 0.97,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-pickledcauliflower-charred",
+				initialCode: "morecrops:cookedvegetable-pickledcauliflower-partbaked"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.048, z: 0 },
+				scale: 0.9 
+			}
+		},
+		"cookedvegetable-pickledcauliflower-charred": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "morecrops:cookedvegetable-pickledcauliflower-perfect"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.048, z: 0 },
+				scale: 0.9 
+			}
+		},
+		"cookedvegetable-pickledbeet-partbaked": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-pickledbeet-perfect",
+				initialCode: "morecrops:vegetable-pickledbeet"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.194, z: 0 },
+				rotation: { x: 90, y: 0, z: 0 },
+				scale: 0.9 
+			}
+		},
+		"cookedvegetable-pickledbeet-perfect": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-pickledbeet-charred",
+				initialCode: "morecrops:cookedvegetable-pickledbeet-partbaked"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.194, z: 0 },
+				rotation: { x: 90, y: 0, z: 0 },
+				scale: 0.9   
+			}
+		},
+		"cookedvegetable-pickledbeet-charred": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "morecrops:cookedvegetable-pickledbeet-perfect"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.194, z: 0 },
+				rotation: { x: 90, y: 0, z: 0 },
+				scale: 0.9      
+			}
+		},
+		"cookedvegetable-pickledeggplant-partbaked": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-pickledeggplant-perfect",
+				initialCode: "morecrops:vegetable-pickledeggplant"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: 0, y: 45, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-pickledeggplant-perfect": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-pickledeggplant-charred",
+				initialCode: "morecrops:cookedvegetable-pickledeggplant-partbaked"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: 0, y: 45, z: 0 },
+				scale: 1   
+			}
+		},
+		"cookedvegetable-pickledeggplant-charred": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "morecrops:cookedvegetable-pickledeggplant-perfect"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: 0, y: 45, z: 0 },
+				scale: 1  
+			}
+		},
+		"cookedvegetable-pickledjalapeno-partbaked": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 0.95,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-pickledjalapeno-perfect",
+				initialCode: "morecrops:vegetable-pickledjalapeno"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-pickledjalapeno-perfect": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 0.95,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-pickledjalapeno-charred",
+				initialCode: "morecrops:cookedvegetable-pickledjalapeno-partbaked"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-pickledjalapeno-charred": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "morecrops:cookedvegetable-pickledjalapeno-perfect"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+	},
+	combustiblePropsByType: {
+		"*-partbaked": {
+			meltingPoint: 150,
+			meltingDuration: 20,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: { type: "item", code: "morecrops:cookedvegetable-{type}-charred" },
+			requiresContainer: false
+		},
+		"*-perfect": {
+			meltingPoint: 150,
+			meltingDuration: 20,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: { type: "item", code: "morecrops:cookedvegetable-{type}-charred" },
+			requiresContainer: false
+		}
+	},
+	materialDensity: 600,
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	nutritionPropsByType: {
+		"*-potato-partbaked": { satiety: 135, foodcategory: "Vegetable" },
+		"*-yam-partbaked": { satiety: 135, foodcategory: "Vegetable" },
+		"*-corn-partbaked": { satiety: 200, foodcategory: "Vegetable" },
+		"*-cauliflower-partbaked": { satiety: 340, foodcategory: "Vegetable" },
+		"*-beet-partbaked": { satiety: 135, foodcategory: "Vegetable" },
+		"*-eggplant-partbaked": { satiety: 135, foodcategory: "Fruit" },
+		"*-jalapeno-partbaked": { satiety: 135, foodcategory: "Vegetable" },
+		"*-pickledpotato-partbaked": { satiety: 125, foodcategory: "Vegetable" },
+		"*-pickledyam-partbaked": { satiety: 125, foodcategory: "Vegetable" },
+		"*-pickledcauliflower-partbaked": { satiety: 90, foodcategory: "Vegetable" },
+		"*-pickledbeet-partbaked": { satiety: 125, foodcategory: "Vegetable" },
+		"*-pickledeggplant-partbaked": { satiety: 125, foodcategory: "Vegetable" },
+		"*-pickledjalapeno-partbaked": { satiety: 125, foodcategory: "Vegetable" },
+
+		"*-potato-perfect": { satiety: 150, foodcategory: "Vegetable" },
+		"*-yam-perfect": { satiety: 150, foodcategory: "Vegetable" },
+		"*-corn-perfect": { satiety: 250, foodcategory: "Vegetable" },
+		"*-cauliflower-perfect": { satiety: 360, foodcategory: "Vegetable" },
+		"*-beet-perfect": { satiety: 150, foodcategory: "Vegetable" },
+		"*-eggplant-perfect": { satiety: 150, foodcategory: "Fruit" },
+		"*-jalapeno-perfect": { satiety: 150, foodcategory: "Vegetable" },
+		"*-pickledpotato-perfect": { satiety: 140, foodcategory: "Vegetable" },
+		"*-pickledyam-perfect": { satiety: 140, foodcategory: "Vegetable" },
+		"*-pickledcauliflower-perfect": { satiety: 140, foodcategory: "Vegetable" },
+		"*-pickledbeet-perfect": { satiety: 140, foodcategory: "Vegetable" },
+		"*-pickledeggplant-perfect": { satiety: 140, foodcategory: "Vegetable" },
+		"*-pickledjalapeno-perfect": { satiety: 140, foodcategory: "Vegetable" },
+
+		"*-potato-charred": { satiety: 140, foodcategory: "Vegetable" },
+		"*-yam-charred": { satiety: 140, foodcategory: "Vegetable" },
+		"*-corn-charred": { satiety: 220, foodcategory: "Vegetable" },
+		"*-cauliflower-charred": { satiety: 100, foodcategory: "Vegetable" },
+		"*-beet-charred": { satiety: 140, foodcategory: "Vegetable" },
+		"*-eggplant-charred": { satiety: 140, foodcategory: "Fruit" },
+		"*-jalapeno-charred": { satiety: 140, foodcategory: "Vegetable" },
+		"*-pickledpotato-charred": { satiety: 350, foodcategory: "Vegetable" },
+		"*-pickledyam-charred": { satiety: 140, foodcategory: "Vegetable" },
+		"*-pickledcauliflower-charred": { satiety: 140, foodcategory: "Vegetable" },
+		"*-pickledbeet-charred": { satiety: 140, foodcategory: "Vegetable" },
+		"*-pickledeggplant-charred": { satiety: 140, foodcategory: "Vegetable" },
+		"*-pickledjalapeno-charred": { satiety: 140, foodcategory: "Vegetable" },
+	},
+	guiTransformByType: {
+		"*-potato-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 5.35
+		},
+		"*-yam-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.56, y: 0.1, z: 0.42 },
+			scale: 5.35
+		},
+		"*-corn-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.56, y: 0.1, z: 0.42 },
+			scale: 5.35
+		},
+		"*-cauliflower-*": {
+			translation: { x: 2.5, y: 1, z: 0 },
+			rotation: { x: 137, y: 131, z: 0 },
+			origin: { x: 0.5, y: 0.2, z: 0.5 },
+			scale: 2.6
+		},
+		"*-beet-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.5, y: 0.45, z: 0.5 },
+			scale: 1.6
+		},
+		"*-eggplant-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.56, y: 0.1, z: 0.42 },
+			scale: 3.6
+		},
+		"*-jalapeno-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -57, y: 125, z: -195 },
+			origin: { x: 0.49, y: 0.05, z: 0.48 },
+			scale: 4.85
+		},
+		"*-pickledpotato-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 5.35
+		},
+		"*-pickledyam-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.56, y: 0.1, z: 0.42 },
+			scale: 5.35
+		},
+		"*-pickledcauliflower-*": {
+			translation: { x: 2.5, y: 1, z: 0 },
+			rotation: { x: 137, y: 131, z: 0 },
+			origin: { x: 0.5, y: 0.2, z: 0.5 },
+			scale: 2.3
+		},
+		"*-pickledbeet-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.5, y: 0.25, z: 0.5 },
+			scale: 1.6
+		},
+		"*-pickledeggplant-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.56, y: 0.1, z: 0.42 },
+			scale: 3.6
+		},
+		"*-pickledjalapeno-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -57, y: 125, z: -195 },
+			origin: { x: 0.49, y: 0.05, z: 0.48 },
+			scale: 4.85
+		}
+	},
+	fpHandTransformByType: {
+		"*-potato-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-yam-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-corn-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 3
+		},
+		"*-cauliflower-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 51, y: 90, z: -30 },
+			scale: 1.9
+		},
+		"*-beet-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-eggplant-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 3
+		},
+		"*-jalapeno-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-pickledpotato-*":	{
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-pickledyam-*":	{
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-pickledcauliflower-*":	{
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 51, y: 90, z: -30 },
+			scale: 1.9
+		},
+		"*-pickledbeet-*":	{
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-pickledeggplant-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-pickledjalapeno-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		}
+	},
+	tpHandTransformByType: {
+		"*-potato-*": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-yam-*": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-corn-*": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 1.2
+		},
+		"*-cauliflower-*": {
+			translation: { x: -0.7, y: -0.14, z: -0.6 },
+			rotation: { x: 1, y: -1, z: -31 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.79
+		},
+		"*-beet-*": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-eggplant-*": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 1.2
+		},
+		"*-jalapeno-*": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.5, z: 0.5 },
+			scale: 0.8
+		},
+		"*-pickledpotato-*": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-pickledyam-*": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-pickledcauliflower-*": {
+			translation: { x: -0.7, y: -0.14, z: -0.6 },
+			rotation: { x: 1, y: -1, z: -31 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.79
+		},
+		"*-pickledbeet-*": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-pickledeggplant-*": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},	
+		"*-pickledjalapeno-*": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		}	
+	},
+	groundTransformByType: {
+		"*-potato-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-yam-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-corn-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-cauliflower-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.5
+		},
+		"*-beet-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 90, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0.5, z: 0.7 },
+			scale: 3
+		},
+		"*-eggplant-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-jalapeno-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-pickledpotato-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 83 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-pickledyam-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 83 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-pickledcauliflower-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.5
+		},
+		"*-pickledbeet-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 90, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0.5, z: 0.7 },
+			scale: 3
+		},
+		"*-pickledeggplant-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 83 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},	
+		"*-pickledjalapeno-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		}
+	},
+	transitionablePropsByType: {
+		"*-partbaked": [{
+			type: "Perish",
+			freshHours: { avg: 252 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-perfect": [{
+			type: "Perish",
+			freshHours: { avg: 252 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-charred": [{
+			type: "Perish",
+			freshHours: { avg: 882 },
+			transitionHours: { avg: 80 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+
+
+
+
+		"cookedvegetable-pickledpotato-partbaked": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"cookedvegetable-pickledpotato-perfect": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"cookedvegetable-pickledpotato-charred": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+
+		"cookedvegetable-pickledyam-partbaked": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"cookedvegetable-pickledyam-perfect": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"cookedvegetable-pickledyam-charred": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+
+		"cookedvegetable-pickledcauliflower-partbaked": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"cookedvegetable-pickledcauliflower-perfect": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"cookedvegetable-pickledcauliflower-charred": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+
+		"cookedvegetable-pickledbeet-partbaked": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"cookedvegetable-pickledbeet-perfect": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"cookedvegetable-pickledbeet-charred": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+
+		"cookedvegetable-pickledeggplant-partbaked": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"cookedvegetable-pickledeggplant-perfect": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"cookedvegetable-pickledeggplant-charred": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+
+		"cookedvegetable-pickledjalapeno-partbaked": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"cookedvegetable-pickledjalapeno-perfect": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"cookedvegetable-pickledjalapeno-charred": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+
+
+	},
+	grindingPropsByType: {
+		"*-corn-partbaked": { 
+			grindedStack: { type: "item", code: "morecrops:cornflour-corn", stacksize: 1 },
+		},
+		"*-corn-perfect": { 
+			grindedStack: { type: "item", code: "morecrops:cornflour-corn", stacksize: 1 },
+		},
+		"*-corn-charred": { 
+			grindedStack: { type: "item", code: "morecrops:cornflour-corn", stacksize: 1 },
+		}
+	}
+}

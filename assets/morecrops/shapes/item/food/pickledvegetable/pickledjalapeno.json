@@ -1,0 +1,79 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"jalapeno": "morecrops:item/food/pickledvegetable/jalapeno",
+		"stemandlsmallleaves": "morecrops:block/plant/crop/jalapeno/stemandlsmallleaves"
+	},
+	"elements": [
+		{
+			"name": "pepper stem 1",
+			"from": [ 6.34, 0.92, 7.72 ], 
+			"to": [ 7.04, 1.22, 8.02 ], 
+			"rotationOrigin": [ 6.837, 1.0196, 7.8159 ],
+			"rotationZ": 150.0,
+			"faces": {
+				"north": { "texture": "#stemandlsmallleaves", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#stemandlsmallleaves", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#stemandlsmallleaves", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#stemandlsmallleaves", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#stemandlsmallleaves", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#stemandlsmallleaves", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "pepper top 1",
+					"from": [ -0.75, -0.77, -0.4 ], 
+					"to": [ 0.45, 0.33, 0.7 ], 
+					"rotationOrigin": [ -0.748, -0.767, -0.4 ],
+					"rotationZ": 22.5,
+					"faces": {
+						"north": { "texture": "#largeleavesjalapenos", "uv": [ 4.5, 1.5, 6.0, 3.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#largeleavesjalapenos", "uv": [ 9.0, 1.0, 10.5, 2.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#largeleavesjalapenos", "uv": [ 8.5, 1.0, 10.0, 2.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#largeleavesjalapenos", "uv": [ 6.0, 1.5, 7.5, 3.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#largeleavesjalapenos", "uv": [ 3.5, 1.5, 5.0, 3.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#largeleavesjalapenos", "uv": [ 10.0, 1.0, 11.5, 2.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+					},
+					"children": [
+						{
+							"name": "pepper middle 1",
+							"from": [ -0.8, 0.1, 0.1 ], 
+							"to": [ 0.1, 1.0, 1.0 ], 
+							"rotationOrigin": [ 1.2, 0.4, 0.4 ],
+							"faces": {
+								"north": { "texture": "#largeleavesjalapenos", "uv": [ 5.0, 1.5, 6.0, 2.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+								"east": { "texture": "#largeleavesjalapenos", "uv": [ 8.0, 1.5, 9.0, 2.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#largeleavesjalapenos", "uv": [ 10.0, 1.5, 11.0, 2.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#largeleavesjalapenos", "uv": [ 7.5, 2.0, 8.5, 3.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#largeleavesjalapenos", "uv": [ 10.5, 1.0, 11.5, 2.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#largeleavesjalapenos", "uv": [ 5.5, 1.0, 6.5, 2.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+							},
+							"children": [
+								{
+									"name": "pepper bottom 1",
+									"from": [ -0.63, 0.226, 0.235 ], 
+									"to": [ 0.17, 0.676, 0.685 ], 
+									"rotationOrigin": [ 0.37, 0.54, 0.4 ],
+									"faces": {
+										"north": { "texture": "#largeleavesjalapenos", "uv": [ 5.0, 1.0, 6.0, 1.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+										"east": { "texture": "#largeleavesjalapenos", "uv": [ 4.5, 2.0, 5.0, 2.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+										"south": { "texture": "#largeleavesjalapenos", "uv": [ 5.5, 1.0, 6.5, 1.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+										"west": { "texture": "#largeleavesjalapenos", "uv": [ 5.5, 1.0, 6.0, 1.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+										"up": { "texture": "#largeleavesjalapenos", "uv": [ 4.0, 1.0, 5.0, 1.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+										"down": { "texture": "#largeleavesjalapenos", "uv": [ 4.6, 1.5, 5.5, 2.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

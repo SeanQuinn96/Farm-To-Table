@@ -1,0 +1,58 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"bulb": "item/food/pickledvegetable/beet"
+	},
+	"elements": [
+		{
+			"name": "beet 1",
+			"from": [ 6.5, 3.4, 6.5 ], 
+			"to": [ 10.5, 6.9, 10.5 ], 
+			"rotationOrigin": [ 8.0, 1.4, 8.0 ],
+			"faces": {
+				"north": { "texture": "#bulb", "uv": [ 4.0, 9.0, 8.0, 12.5 ] },
+				"east": { "texture": "#bulb", "uv": [ 3.0, 9.0, 7.0, 12.5 ] },
+				"south": { "texture": "#bulb", "uv": [ 7.0, 9.0, 11.0, 12.5 ] },
+				"west": { "texture": "#bulb", "uv": [ 10.0, 9.0, 14.0, 12.5 ] },
+				"up": { "texture": "#bulb", "uv": [ 5.0, 9.0, 9.0, 13.0 ] },
+				"down": { "texture": "#bulb", "uv": [ 7.0, 9.0, 11.0, 13.0 ] }
+			},
+			"children": [
+				{
+					"name": "beet 1 top",
+					"from": [ 1.0, 3.5, 1.0 ], 
+					"to": [ 3.0, 4.0, 3.0 ], 
+					"rotationOrigin": [ 0.5, 1.0, 0.5 ],
+					"faces": {
+						"north": { "texture": "#bulb", "uv": [ 1.5, 5.0, 3.5, 5.5 ] },
+						"east": { "texture": "#bulb", "uv": [ 11.5, 5.0, 13.5, 5.5 ] },
+						"south": { "texture": "#bulb", "uv": [ 13.5, 5.0, 15.5, 5.5 ] },
+						"west": { "texture": "#bulb", "uv": [ 8.0, 5.0, 10.0, 5.5 ] },
+						"up": { "texture": "#bulb", "uv": [ 5.0, 2.5, 7.0, 4.5 ] },
+						"down": { "texture": "#bulb", "uv": [ 9.0, 7.0, 11.0, 9.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "root",
+					"from": [ 0.8, -2.0, 0.8 ], 
+					"to": [ 3.3, 0.1, 3.3 ], 
+					"rotationOrigin": [ 0.3, -1.5, 0.3 ],
+					"faces": {
+						"north": { "texture": "#bulb", "uv": [ 4.5, 2.0, 7.0, 4.0 ] },
+						"east": { "texture": "#bulb", "uv": [ 8.5, 3.5, 11.0, 5.5 ] },
+						"south": { "texture": "#bulb", "uv": [ 11.0, 2.0, 13.5, 4.0 ] },
+						"west": { "texture": "#bulb", "uv": [ 5.0, 3.0, 7.5, 5.0 ] },
+						"up": { "texture": "#bulb", "uv": [ 6.0, 9.5, 8.5, 12.0 ], "enabled": false },
+						"down": { "texture": "#bulb", "uv": [ 7.0, 3.0, 9.5, 5.5 ] }
+					}
+				}
+			]
+		}
+	]}
