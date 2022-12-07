@@ -1,0 +1,45 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"sproutsandstem": "morecrops:block/plant/crop/eggplant/sproutsandstem"
+	},
+	"elements": [
+		{
+			"name": "plantstalk",
+			"from": [ 7.5, -0.5, 7.5 ], 
+			"to": [ 8.5, 0.5, 8.5 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "sprout1",
+					"from": [ 0.9, 0.5, -1.1 ], 
+					"to": [ 0.9, 3.5, 0.9 ], 
+					"rotationOrigin": [ 0.9, 0.5, -0.1 ],
+					"rotationY": -22.5,
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#sproutsandstem", "uv": [ 4.0, 13.0, 6.0, 16.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#sproutsandstem", "uv": [ 4.0, 7.5, 6.0, 10.5 ], "autoUv": false, "windMode": [0,0,7,7] },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] }
+					}
+				}
+			]
+		}
+	]}

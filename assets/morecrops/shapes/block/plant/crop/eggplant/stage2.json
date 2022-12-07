@@ -1,0 +1,45 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"sproutsandstem": "morecrops:block/plant/crop/eggplant/sproutsandstem"
+	},
+	"elements": [
+		{
+			"name": "plantstalk",
+			"from": [ 7.5, -0.5, 7.5 ], 
+			"to": [ 8.5, 0.5, 8.5 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "sprout1",
+					"from": [ 0.5, 0.5, -0.9 ], 
+					"to": [ 0.5, 4.5, 2.1 ], 
+					"rotationOrigin": [ 0.5, 0.5, 0.5 ],
+					"rotationY": -22.5,
+					"faces": {
+						"north": { "texture": "#sproutsandstem", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#sproutsandstem", "uv": [ 7.0, 11.5, 10.5, 16.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"south": { "texture": "#sproutsandstem", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#sproutsandstem", "uv": [ 7.0, 11.5, 10.5, 16.0 ], "autoUv": false, "windMode": [0,0,7,7] },
+						"up": { "texture": "#sproutsandstem", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#sproutsandstem", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] }
+					}
+				}
+			]
+		}
+	]}
