@@ -50,19 +50,15 @@
 		}
 	},
 	nutritionPropsByType: {
-		"*-beet": { satiety: 100, foodcategory: "Vegetable" },
 		"*-cauliflower": { satiety: 315, foodcategory: "Vegetable" },
-		"*-corn": { satiety: 100, foodcategory: "Vegetable" },
 		"*-eggplant": { satiety: 100, foodcategory: "Fruit" },
-		"*-jalapeno": { satiety: 100, foodcategory: "Vegetable" },
-		"*-potato": { satiety: 100, foodcategory: "Vegetable" },
-		"*-yam": { satiety: 100, foodcategory: "Vegetable" },
+		"*": { satiety: 100, foodcategory: "Vegetable" },
 	},
 	transitionablePropsByType: {
 		"*": [{
 			type: "Perish",
-			freshHours: { avg: 672 },
-			transitionHours: { avg: 120 },
+			freshHours: { avg: 504 },
+			transitionHours: { avg: 96 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.5
 		}]

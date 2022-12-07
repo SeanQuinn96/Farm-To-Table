@@ -40,19 +40,7 @@
 				scale: 1  
 			}
 		},
-		"*-pickledjalapeno": {
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
-		"*-pickledpotato": {
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
-		"*-pickledyam": {
+		"*": {
 			onDisplayTransform: { 
 				translation: { x: 0, y: 0, z: 0 },
 				scale: 1 
@@ -64,12 +52,9 @@
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	nutritionPropsByType: {
-		"*-pickledbeet": { saturation: 80, foodcategory: "Vegetable" },
-		"*-pickledcauliflower": { saturation: 265, foodcategory: "Vegetable" },
+		"*-pickledcauliflower": { saturation: 240, foodcategory: "Vegetable" },
 		"*-pickledeggplant": { saturation: 80, foodcategory: "Fruit" },
-		"*-pickledjalapeno": { saturation: 80, foodcategory: "Vegetable" },
-		"*-pickledpotato": { saturation: 80, foodcategory: "Vegetable" },
-		"*-pickledyam": { saturation: 80, foodcategory: "Vegetable" },
+		"*": { saturation: 80, foodcategory: "Vegetable" },
 	},
 	transitionablePropsByType: {
 		"*": [{
