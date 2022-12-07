@@ -1,0 +1,213 @@
+{
+	code: "vegetable",
+	maxstacksize: 64,
+	variantgroups: [
+		{ code: "vegetable", states: ["beet", "cauliflower", "corn", "eggplant", "jalapeno", "potato", "yam"] },
+	],
+	attributesByType: {
+		"*": {
+			displaycaseable: true,
+			shelvable: true,
+		}
+	},
+	
+	shape: {
+		base: "morecrops:item/crop/vegetable/{vegetable}"
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	nutritionPropsByType: {
+		"*-beet": { satiety: 100, foodcategory: "Vegetable" },
+		"*-cauliflower": { satiety: 315, foodcategory: "Vegetable" },
+		"*-corn": { satiety: 100, foodcategory: "Vegetable" },
+		"*-eggplant": { satiety: 100, foodcategory: "Fruit" },
+		"*-jalapeno": { satiety: 100, foodcategory: "Vegetable" },
+		"*-potato": { satiety: 100, foodcategory: "Vegetable" },
+		"*-yam": { satiety: 100, foodcategory: "Vegetable" },
+	},
+	transitionablePropsByType: {
+		"*": [{
+			type: "Perish",
+			freshHours: { avg: 672 },
+			transitionHours: { avg: 120 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.5
+		}]
+	},
+	guiTransformByType: {
+		"*-beet": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -144 },
+			origin: { x: 0.5, y: 0.32, z: 0.5 },
+			scale: 3.04
+		},
+		"*-cauliflower": {
+			translation: { x: 2.5, y: 1, z: 0 },
+			rotation: { x: 137, y: 131, z: 0 },
+			origin: { x: 0.5, y: 0.2, z: 0.5 },
+			scale: 2.6
+		},
+		"*-corn": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 143, z: 131 },
+			origin: { x: 0.45, y: 0, z: 0.53 },
+			scale: 4.13
+		},
+		"*-eggplant": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.56, y: 0.1, z: 0.42 },
+			scale: 3.6
+		},
+		"*-jalapeno": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -57, y: 125, z: -195 },
+			origin: { x: 0.49, y: 0.05, z: 0.48 },
+			scale: 4.85
+		},
+		"*-potato": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 5.35
+		},
+		"*-yam": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.56, y: 0.1, z: 0.42 },
+			scale: 5.35
+		}
+	},
+	fpHandTransformByType: {
+		"*-beet": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-cauliflower": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 51, y: 90, z: -30 },
+			scale: 1.9
+		},
+		"*-corn": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 40, y: -71, z: -8 },
+			origin: { x: 0.5, y: 0.15, z: 0.4 },
+			scale: 3.03
+		},
+		"*-eggplant": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 3
+		},
+		"*-jalapeno": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-potato": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-yam": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		}
+
+	},
+	tpHandTransformByType: {
+		"*-beet": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-cauliflower": {
+			translation: { x: -0.7, y: -0.14, z: -0.6 },
+			rotation: { x: 1, y: -1, z: -31 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.79
+		},
+		"*-corn": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 1.2
+		},
+		"*-eggplant": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 1.2
+		},
+		"*-jalapeno": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.5, z: 0.5 },
+			scale: 0.8
+		},
+		"*-potato": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-yam": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		}
+	},
+	groundTransformByType: {
+		"*-beet": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 90, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0.5, z: 0.7 },
+			scale: 3
+		},
+		"*-cauliflower": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.5
+		},
+		"*-corn": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 5
+		},
+		"*-eggplant": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-jalapeno": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-potato": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-yam": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		}
+	},
+	materialDensity: 600
+}

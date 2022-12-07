@@ -1,0 +1,18 @@
+{
+  "Type": "content",
+  "TextureSize": 32,
+  "Name": "More Crops",
+  "Version": "0.0.1",
+  "NetworkVersion": null,
+  "Description": "Adds more crops to Vintage Story along with uses for them.",
+  "Website": "",
+  "ModID": "morecrops",
+  "Authors": [
+    "Sean_OCuin"
+  ],
+  "Contributors": ["Ледяная Соня", "Minni6in"],
+  "Side": "Universal",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "Dependencies": {}
+}

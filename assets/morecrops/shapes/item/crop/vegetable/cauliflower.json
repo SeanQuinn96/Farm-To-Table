@@ -1,0 +1,59 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"cauliflower": "morecrops:block/plant/crop/cauliflower/cauliflower",
+		"bottom12": "morecrops:block/plant/crop/cauliflower/bottom12",
+		"top": "morecrops:block/plant/crop/cauliflower/top"
+	},
+	"elements": [
+		{
+			"name": "cauliflower",
+			"from": [ 5.0, 0.0, 5.0 ], 
+			"to": [ 11.0, 5.0, 11.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#top", "uv": [ 6.0, 3.0, 12.0, 8.0 ], "windMode": [0,0,0,0] },
+				"east": { "texture": "#top", "uv": [ 0.0, 3.0, 6.0, 8.0 ], "windMode": [0,0,0,0] },
+				"south": { "texture": "#top", "uv": [ 6.5, 11.0, 12.5, 16.0 ], "windMode": [0,0,0,0] },
+				"west": { "texture": "#top", "uv": [ 0.0, 11.0, 6.0, 16.0 ], "windMode": [0,0,0,0] },
+				"up": { "texture": "#top", "uv": [ 6.0, 2.0, 12.0, 8.0 ], "windMode": [0,0,0,0] },
+				"down": { "texture": "#top", "uv": [ 6.0, 2.0, 12.0, 8.0 ], "windMode": [0,0,0,0] }
+			},
+			"children": [
+				{
+					"name": "top",
+					"from": [ 0.5, 5.0, 0.5 ], 
+					"to": [ 5.5, 5.5, 5.5 ], 
+					"faces": {
+						"north": { "texture": "#top", "uv": [ 0.0, 0.0, 5.0, 0.5 ], "windMode": [0,0,0,0] },
+						"east": { "texture": "#top", "uv": [ 0.0, 0.0, 5.0, 0.5 ], "windMode": [0,0,0,0] },
+						"south": { "texture": "#top", "uv": [ 0.0, 0.0, 5.0, 0.5 ], "windMode": [0,0,0,0] },
+						"west": { "texture": "#top", "uv": [ 0.0, 0.0, 5.0, 0.5 ], "windMode": [0,0,0,0] },
+						"up": { "texture": "#top", "uv": [ 7.5, 6.0, 12.5, 11.0 ], "windMode": [0,0,0,0] },
+						"down": { "texture": "#top", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "top15",
+					"from": [ 1.2, 5.5, 1.25 ], 
+					"to": [ 4.7, 6.0, 4.75 ], 
+					"rotationOrigin": [ 0.7, 0.5, 0.7 ],
+					"faces": {
+						"north": { "texture": "#top", "uv": [ 0.0, 0.0, 3.5, 0.5 ] },
+						"east": { "texture": "#top", "uv": [ 0.0, 0.0, 3.5, 0.5 ] },
+						"south": { "texture": "#top", "uv": [ 0.0, 0.0, 3.5, 0.5 ] },
+						"west": { "texture": "#top", "uv": [ 0.0, 0.0, 3.5, 0.5 ] },
+						"up": { "texture": "#top", "uv": [ 7.5, 6.0, 11.0, 9.5 ] },
+						"down": { "texture": "#top", "uv": [ 0.0, 0.0, 3.5, 3.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

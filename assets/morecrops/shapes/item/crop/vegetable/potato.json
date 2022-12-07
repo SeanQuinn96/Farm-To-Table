@@ -1,0 +1,86 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"potato": "morecrops:block/plant/crop/potato/bulb"
+	},
+	"elements": [
+		{
+			"name": "onion 2",
+			"from": [ 6.15, 0.5, 6.75 ], 
+			"to": [ 9.85, 2.0, 9.25 ], 
+			"rotationOrigin": [ 7.2, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#potato", "uv": [ 5.5, 12.5, 9.0, 14.0 ] },
+				"east": { "texture": "#potato", "uv": [ 12.0, 12.5, 14.5, 14.0 ] },
+				"south": { "texture": "#potato", "uv": [ 7.0, 12.5, 10.5, 14.0 ] },
+				"west": { "texture": "#potato", "uv": [ 11.0, 13.0, 13.5, 14.5 ] },
+				"up": { "texture": "#potato", "uv": [ 11.5, 4.0, 15.0, 6.5 ] },
+				"down": { "texture": "#potato", "uv": [ 5.0, 8.0, 8.5, 10.5 ] }
+			},
+			"children": [
+				{
+					"name": "onion 2 top",
+					"from": [ 0.4, 1.5, 0.5 ], 
+					"to": [ 3.3, 2.0, 2.0 ], 
+					"rotationOrigin": [ -0.1, 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#potato", "uv": [ 7.0, 4.0, 9.5, 4.5 ] },
+						"east": { "texture": "#potato", "uv": [ 7.0, 4.5, 8.5, 5.0 ] },
+						"south": { "texture": "#potato", "uv": [ 11.0, 4.5, 13.5, 5.0 ] },
+						"west": { "texture": "#potato", "uv": [ 0.5, 4.0, 2.0, 4.5 ] },
+						"up": { "texture": "#potato", "uv": [ 11.5, 4.5, 14.0, 6.0 ] },
+						"down": { "texture": "#potato", "uv": [ 9.0, 7.0, 11.5, 8.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "onion bottom",
+					"from": [ 0.4, -0.5, 0.5 ], 
+					"to": [ 3.3, 0.0, 2.0 ], 
+					"rotationOrigin": [ -0.1, 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#potato", "uv": [ 12.5, 6.5, 15.0, 7.0 ] },
+						"east": { "texture": "#potato", "uv": [ 0.5, 6.0, 2.0, 6.5 ] },
+						"south": { "texture": "#potato", "uv": [ 9.5, 6.0, 12.0, 6.5 ] },
+						"west": { "texture": "#potato", "uv": [ 3.0, 6.5, 4.5, 7.0 ] },
+						"up": { "texture": "#potato", "uv": [ 3.0, 8.0, 5.5, 9.5 ], "enabled": false },
+						"down": { "texture": "#potato", "uv": [ 10.0, 5.5, 12.5, 7.0 ] }
+					}
+				},
+				{
+					"name": "onion 4",
+					"from": [ 3.7, 0.25, 0.5 ], 
+					"to": [ 4.2, 1.25, 2.0 ], 
+					"rotationOrigin": [ 4.75, -0.3, 1.75 ],
+					"faces": {
+						"north": { "texture": "#potato", "uv": [ 5.5, 12.5, 6.0, 13.5 ] },
+						"east": { "texture": "#potato", "uv": [ 12.0, 12.5, 13.5, 13.5 ] },
+						"south": { "texture": "#potato", "uv": [ 7.0, 12.5, 7.5, 13.5 ] },
+						"west": { "texture": "#potato", "uv": [ 11.0, 13.0, 12.5, 14.0 ] },
+						"up": { "texture": "#potato", "uv": [ 11.5, 4.0, 12.0, 5.5 ] },
+						"down": { "texture": "#potato", "uv": [ 5.0, 8.0, 5.5, 9.5 ] }
+					}
+				},
+				{
+					"name": "onion 5",
+					"from": [ -0.5, 0.25, 0.5 ], 
+					"to": [ 0.0, 1.25, 2.0 ], 
+					"rotationOrigin": [ 0.55, -0.3, 1.75 ],
+					"faces": {
+						"north": { "texture": "#potato", "uv": [ 5.5, 12.5, 6.0, 13.5 ] },
+						"east": { "texture": "#potato", "uv": [ 12.0, 12.5, 13.5, 13.5 ] },
+						"south": { "texture": "#potato", "uv": [ 7.0, 12.5, 7.5, 13.5 ] },
+						"west": { "texture": "#potato", "uv": [ 11.0, 13.0, 12.5, 14.0 ] },
+						"up": { "texture": "#potato", "uv": [ 11.5, 4.0, 12.0, 5.5 ] },
+						"down": { "texture": "#potato", "uv": [ 5.0, 8.0, 5.5, 9.5 ] }
+					}
+				}
+			]
+		}
+	]}
