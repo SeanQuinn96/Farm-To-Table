@@ -382,13 +382,7 @@
 		}]
 	},
 	grindingPropsByType: {
-		"*-corn-partbaked": { 
-			grindedStack: { type: "item", code: "morecrops:cornflour-corn", stacksize: 1 },
-		},
 		"*-corn-perfect": { 
-			grindedStack: { type: "item", code: "morecrops:cornflour-corn", stacksize: 1 },
-		},
-		"*-corn-charred": { 
 			grindedStack: { type: "item", code: "morecrops:cornflour-corn", stacksize: 1 },
 		}
 	}
