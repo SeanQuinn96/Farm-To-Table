@@ -1,0 +1,46 @@
+[
+	{
+		ingredientPattern: "CJK",
+		ingredients: {
+			"C": { 
+				type: "item", 
+				code: "morecrops:cornbreaddough-corn", 
+			},
+			"J": { 
+				type: "item", 
+				code: "morecrops:vegetable-jalapeno",
+			},
+			"K": { 
+				type: "item", 
+				code: "game:knife-*", isTool: true, toolDurabilityCost: 1
+			}
+		},
+		width: 3,
+		height: 1,
+		name: "jalapeno cornbread dough",
+		shapeless: true,
+		output: { type: "item", code: "morecrops:jalapenocornbreaddough" }
+	},
+	{
+		ingredientPattern: "CJK",
+		ingredients: {
+			"C": { 
+				type: "item", 
+				code: "morecrops:cornbreaddough-corn",
+			},
+			"J": { 
+				type: "item", 
+				code: "morecrops:vegetable-jalapeno",
+			},
+			"K": { 
+				type: "item", 
+				code: "game:knife-*", isTool: true, toolDurabilityCost: 1
+			}
+		},
+		width: 3,
+		height: 1,
+		name: "jalapeno cornbread dough",
+		shapeless: true,
+		output: { type: "item", code: "morecrops:jalapenocornbreaddough" }
+	}
+]

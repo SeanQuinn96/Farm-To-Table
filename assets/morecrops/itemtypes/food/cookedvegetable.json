@@ -78,7 +78,7 @@
 		},
 	},
 	attributesByType: {
-		"cookedvegetable-potato-partbaked": {
+		"cookedvegetable-*-partbaked": {
 			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
 			displaycaseable: true,
 			shelvable: true,
@@ -88,15 +88,15 @@
 				levelTo: 0.5,
 				startScaleY: 0.95,
 				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-potato-perfect",
-				initialCode: "morecrops:vegetable-potato"
+				resultCode: "morecrops:cookedvegetable-{type}-perfect",
+				initialCode: "morecrops:vegetable-{type}"
 			},
 			onDisplayTransform: { 
 				translation: { x: 0, y: 0, z: 0 },
 				scale: 1 
 			}
 		},
-		"cookedvegetable-potato-perfect": {
+		"cookedvegetable-*-perfect": {
 			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
 			displaycaseable: true,
 			shelvable: true,
@@ -106,226 +106,12 @@
 				levelTo: 0.75,
 				startScaleY: 0.95,
 				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-potato-charred",
-				initialCode: "morecrops:cookedvegetable-potato-partbaked"
+				resultCode: "morecrops:cookedvegetable-{type}-charred",
+				initialCode: "morecrops:cookedvegetable-{type}-partbaked"
 			},
 			onDisplayTransform: { 
 				translation: { x: 0, y: 0, z: 0 },
 				scale: 1 
-			}
-		},
-		"cookedvegetable-potato-charred": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				initialCode: "morecrops:cookedvegetable-potato-perfect"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
-		"cookedvegetable-yam-partbaked": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 0.95,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-yam-perfect",
-				initialCode: "morecrops:vegetable-yam"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
-		"cookedvegetable-yam-perfect": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.95,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-yam-charred",
-				initialCode: "morecrops:cookedvegetable-yam-partbaked"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
-		"cookedvegetable-yam-charred": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				initialCode: "morecrops:cookedvegetable-yam-perfect"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
-		"cookedvegetable-cauliflower-partbaked": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 0.97,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-cauliflower-perfect",
-				initialCode: "morecrops:vegetable-cauliflower"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.045, z: 0 },
-				scale: 0.9 
-			}
-		},
-		"cookedvegetable-cauliflower-perfect": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.97,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-cauliflower-charred",
-				initialCode: "morecrops:cookedvegetable-cauliflower-partbaked"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.045, z: 0 },
-				scale: 0.9 
-			}
-		},
-		"cookedvegetable-cauliflower-charred": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				initialCode: "morecrops:cookedvegetable-cauliflower-perfect"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.045, z: 0 },
-				scale: 0.9 
-			}
-		},
-		"cookedvegetable-corn-partbaked": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-corn-perfect",
-				initialCode: "morecrops:vegetable-corn"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
-		"cookedvegetable-corn-perfect": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-corn-charred",
-				initialCode: "morecrops:cookedvegetable-corn-partbaked"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
-		"cookedvegetable-corn-charred": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				initialCode: "morecrops:cookedvegetable-corn-perfect"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
-		"cookedvegetable-beet-partbaked": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-beet-perfect",
-				initialCode: "morecrops:vegetable-beet"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.194, z: 0 },
-				rotation: { x: 90, y: 0, z: 0 },
-				scale: 0.9 
-			}
-		},
-		"cookedvegetable-beet-perfect": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-beet-charred",
-				initialCode: "morecrops:cookedvegetable-beet-partbaked"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.194, z: 0 },
-				rotation: { x: 90, y: 0, z: 0 },
-				scale: 0.9   
 			}
 		},
 		"cookedvegetable-beet-charred": {
@@ -338,89 +124,14 @@
 				levelTo: 1,
 				startScaleY: 1.0,
 				endScaleY: 1.0,
-				initialCode: "morecrops:cookedvegetable-beet-perfect"
+				initialCode: "morecrops:cookedvegetable-{type}-perfect"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.194, z: 0 },
-				rotation: { x: 90, y: 0, z: 0 },
-				scale: 0.9      
+			onDisplayTransform: {
+				translation: { x: 0.1, y: -0.4, z: 0.1 },
+				rotation: { x: 2, y: -47, z: -91 }
 			}
 		},
-		"cookedvegetable-eggplant-partbaked": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-eggplant-perfect",
-				initialCode: "morecrops:vegetable-eggplant"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				rotation: { x: 0, y: 45, z: 0 },
-				scale: 1 
-			}
-		},
-		"cookedvegetable-eggplant-perfect": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-eggplant-charred",
-				initialCode: "morecrops:cookedvegetable-eggplant-partbaked"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				rotation: { x: 0, y: 45, z: 0 },
-				scale: 1   
-			}
-		},
-		"cookedvegetable-eggplant-charred": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				initialCode: "morecrops:cookedvegetable-eggplant-perfect"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				rotation: { x: 0, y: 45, z: 0 },
-				scale: 1  
-			}
-		},
-		"cookedvegetable-jalapeno-partbaked": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 0.95,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-jalapeno-perfect",
-				initialCode: "morecrops:vegetable-jalapeno"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
-		"cookedvegetable-jalapeno-perfect": {
+		"cookedvegetable-beet-perfect": {
 			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
 			displaycaseable: true,
 			shelvable: true,
@@ -430,15 +141,15 @@
 				levelTo: 0.75,
 				startScaleY: 0.95,
 				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-jalapeno-charred",
-				initialCode: "morecrops:cookedvegetable-jalapeno-partbaked"
+				resultCode: "morecrops:cookedvegetable-{type}-charred",
+				initialCode: "morecrops:cookedvegetable-{type}-partbaked"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
+			onDisplayTransform: {
+				translation: { x: 0.1, y: -0.4, z: 0.1 },
+				rotation: { x: 2, y: -47, z: -91 }
 			}
 		},
-		"cookedvegetable-jalapeno-charred": {
+		"cookedvegetable-beet-charred": {
 			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
 			displaycaseable: true,
 			shelvable: true,
@@ -448,339 +159,13 @@
 				levelTo: 1,
 				startScaleY: 1.0,
 				endScaleY: 1.0,
-				initialCode: "morecrops:cookedvegetable-jalapeno-perfect"
+				initialCode: "morecrops:cookedvegetable-{type}-perfect"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
+			onDisplayTransform: {
+				translation: { x: 0.1, y: -0.4, z: 0.1 },
+				rotation: { x: 2, y: -47, z: -91 }
 			}
-		},
-		"cookedvegetable-pickledpotato-partbaked": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-pickledpotato-perfect",
-				initialCode: "morecrops:vegetable-pickledpotato"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
-		"cookedvegetable-pickledpotato-perfect": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-pickledpotato-charred",
-				initialCode: "morecrops:cookedvegetable-pickledpotato-partbaked"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
-		"cookedvegetable-pickledpotato-charred": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				initialCode: "morecrops:cookedvegetable-pickledpotato-perfect"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
-		"cookedvegetable-pickledyam-partbaked": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-pickledyam-perfect",
-				initialCode: "morecrops:vegetable-pickledyam"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
-		"cookedvegetable-pickledyam-perfect": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-pickledyam-charred",
-				initialCode: "morecrops:cookedvegetable-pickledyam-partbaked"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
-		"cookedvegetable-pickledyam-charred": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				initialCode: "morecrops:cookedvegetable-pickledyam-perfect"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
-
-
-		"cookedvegetable-pickledcauliflower-partbaked": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 0.97,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-pickledcauliflower-perfect",
-				initialCode: "morecrops:vegetable-pickledcauliflower"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.048, z: 0 },
-				scale: 0.9 
-			}
-		},
-		"cookedvegetable-pickledcauliflower-perfect": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.97,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-pickledcauliflower-charred",
-				initialCode: "morecrops:cookedvegetable-pickledcauliflower-partbaked"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.048, z: 0 },
-				scale: 0.9 
-			}
-		},
-		"cookedvegetable-pickledcauliflower-charred": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				initialCode: "morecrops:cookedvegetable-pickledcauliflower-perfect"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.048, z: 0 },
-				scale: 0.9 
-			}
-		},
-		"cookedvegetable-pickledbeet-partbaked": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-pickledbeet-perfect",
-				initialCode: "morecrops:vegetable-pickledbeet"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.194, z: 0 },
-				rotation: { x: 90, y: 0, z: 0 },
-				scale: 0.9 
-			}
-		},
-		"cookedvegetable-pickledbeet-perfect": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-pickledbeet-charred",
-				initialCode: "morecrops:cookedvegetable-pickledbeet-partbaked"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.194, z: 0 },
-				rotation: { x: 90, y: 0, z: 0 },
-				scale: 0.9   
-			}
-		},
-		"cookedvegetable-pickledbeet-charred": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				initialCode: "morecrops:cookedvegetable-pickledbeet-perfect"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.194, z: 0 },
-				rotation: { x: 90, y: 0, z: 0 },
-				scale: 0.9      
-			}
-		},
-		"cookedvegetable-pickledeggplant-partbaked": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-pickledeggplant-perfect",
-				initialCode: "morecrops:vegetable-pickledeggplant"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				rotation: { x: 0, y: 45, z: 0 },
-				scale: 1 
-			}
-		},
-		"cookedvegetable-pickledeggplant-perfect": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-pickledeggplant-charred",
-				initialCode: "morecrops:cookedvegetable-pickledeggplant-partbaked"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				rotation: { x: 0, y: 45, z: 0 },
-				scale: 1   
-			}
-		},
-		"cookedvegetable-pickledeggplant-charred": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				initialCode: "morecrops:cookedvegetable-pickledeggplant-perfect"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				rotation: { x: 0, y: 45, z: 0 },
-				scale: 1  
-			}
-		},
-		"cookedvegetable-pickledjalapeno-partbaked": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 0.95,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-pickledjalapeno-perfect",
-				initialCode: "morecrops:vegetable-pickledjalapeno"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
-		"cookedvegetable-pickledjalapeno-perfect": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.95,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-pickledjalapeno-charred",
-				initialCode: "morecrops:cookedvegetable-pickledjalapeno-partbaked"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
-		"cookedvegetable-pickledjalapeno-charred": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				initialCode: "morecrops:cookedvegetable-pickledjalapeno-perfect"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
+		}
 	},
 	combustiblePropsByType: {
 		"*-partbaked": {
@@ -803,47 +188,47 @@
 	materialDensity: 600,
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	nutritionPropsByType: {
-		"*-potato-partbaked": { satiety: 135, foodcategory: "Vegetable" },
-		"*-yam-partbaked": { satiety: 135, foodcategory: "Vegetable" },
-		"*-corn-partbaked": { satiety: 200, foodcategory: "Vegetable" },
-		"*-cauliflower-partbaked": { satiety: 340, foodcategory: "Vegetable" },
-		"*-beet-partbaked": { satiety: 135, foodcategory: "Vegetable" },
-		"*-eggplant-partbaked": { satiety: 135, foodcategory: "Fruit" },
-		"*-jalapeno-partbaked": { satiety: 135, foodcategory: "Vegetable" },
-		"*-pickledpotato-partbaked": { satiety: 125, foodcategory: "Vegetable" },
-		"*-pickledyam-partbaked": { satiety: 125, foodcategory: "Vegetable" },
-		"*-pickledcauliflower-partbaked": { satiety: 90, foodcategory: "Vegetable" },
-		"*-pickledbeet-partbaked": { satiety: 125, foodcategory: "Vegetable" },
-		"*-pickledeggplant-partbaked": { satiety: 125, foodcategory: "Vegetable" },
-		"*-pickledjalapeno-partbaked": { satiety: 125, foodcategory: "Vegetable" },
+		"*-potato-partbaked": { satiety: 115, foodcategory: "Vegetable" },
+		"*-yam-partbaked": { satiety: 115, foodcategory: "Vegetable" },
+		"*-corn-partbaked": { satiety: 115, foodcategory: "Vegetable" },
+		"*-cauliflower-partbaked": { satiety: 315, foodcategory: "Vegetable" },
+		"*-beet-partbaked": { satiety: 115, foodcategory: "Vegetable" },
+		"*-eggplant-partbaked": { satiety: 115, foodcategory: "Fruit" },
+		"*-jalapeno-partbaked": { satiety: 115, foodcategory: "Vegetable" },
+		"*-pickledpotato-partbaked": { satiety: 95, foodcategory: "Vegetable" },
+		"*-pickledyam-partbaked": { satiety: 95, foodcategory: "Vegetable" },
+		"*-pickledcauliflower-partbaked": { satiety: 255, foodcategory: "Vegetable" },
+		"*-pickledbeet-partbaked": { satiety: 95, foodcategory: "Vegetable" },
+		"*-pickledeggplant-partbaked": { satiety: 95, foodcategory: "Fruit" },
+		"*-pickledjalapeno-partbaked": { satiety: 95, foodcategory: "Vegetable" },
 
-		"*-potato-perfect": { satiety: 150, foodcategory: "Vegetable" },
-		"*-yam-perfect": { satiety: 150, foodcategory: "Vegetable" },
-		"*-corn-perfect": { satiety: 250, foodcategory: "Vegetable" },
-		"*-cauliflower-perfect": { satiety: 360, foodcategory: "Vegetable" },
-		"*-beet-perfect": { satiety: 150, foodcategory: "Vegetable" },
-		"*-eggplant-perfect": { satiety: 150, foodcategory: "Fruit" },
-		"*-jalapeno-perfect": { satiety: 150, foodcategory: "Vegetable" },
-		"*-pickledpotato-perfect": { satiety: 140, foodcategory: "Vegetable" },
-		"*-pickledyam-perfect": { satiety: 140, foodcategory: "Vegetable" },
-		"*-pickledcauliflower-perfect": { satiety: 140, foodcategory: "Vegetable" },
-		"*-pickledbeet-perfect": { satiety: 140, foodcategory: "Vegetable" },
-		"*-pickledeggplant-perfect": { satiety: 140, foodcategory: "Vegetable" },
-		"*-pickledjalapeno-perfect": { satiety: 140, foodcategory: "Vegetable" },
+		"*-potato-perfect": { satiety: 130, foodcategory: "Vegetable" },
+		"*-yam-perfect": { satiety: 130, foodcategory: "Vegetable" },
+		"*-corn-perfect": { satiety: 130, foodcategory: "Vegetable" },
+		"*-cauliflower-perfect": { satiety: 330, foodcategory: "Vegetable" },
+		"*-beet-perfect": { satiety: 130, foodcategory: "Vegetable" },
+		"*-eggplant-perfect": { satiety: 130, foodcategory: "Fruit" },
+		"*-jalapeno-perfect": { satiety: 130, foodcategory: "Vegetable" },
+		"*-pickledpotato-perfect": { satiety: 110, foodcategory: "Vegetable" },
+		"*-pickledyam-perfect": { satiety: 110, foodcategory: "Vegetable" },
+		"*-pickledcauliflower-perfect": { satiety: 270, foodcategory: "Vegetable" },
+		"*-pickledbeet-perfect": { satiety: 110, foodcategory: "Vegetable" },
+		"*-pickledeggplant-perfect": { satiety: 110, foodcategory: "Fruit" },
+		"*-pickledjalapeno-perfect": { satiety: 110, foodcategory: "Vegetable" },
 
-		"*-potato-charred": { satiety: 140, foodcategory: "Vegetable" },
-		"*-yam-charred": { satiety: 140, foodcategory: "Vegetable" },
-		"*-corn-charred": { satiety: 220, foodcategory: "Vegetable" },
-		"*-cauliflower-charred": { satiety: 100, foodcategory: "Vegetable" },
-		"*-beet-charred": { satiety: 140, foodcategory: "Vegetable" },
-		"*-eggplant-charred": { satiety: 140, foodcategory: "Fruit" },
-		"*-jalapeno-charred": { satiety: 140, foodcategory: "Vegetable" },
-		"*-pickledpotato-charred": { satiety: 350, foodcategory: "Vegetable" },
-		"*-pickledyam-charred": { satiety: 140, foodcategory: "Vegetable" },
-		"*-pickledcauliflower-charred": { satiety: 140, foodcategory: "Vegetable" },
-		"*-pickledbeet-charred": { satiety: 140, foodcategory: "Vegetable" },
-		"*-pickledeggplant-charred": { satiety: 140, foodcategory: "Vegetable" },
-		"*-pickledjalapeno-charred": { satiety: 140, foodcategory: "Vegetable" },
+		"*-potato-charred": { satiety: 50, foodcategory: "Vegetable" },
+		"*-yam-charred": { satiety: 50, foodcategory: "Vegetable" },
+		"*-corn-charred": { satiety: 50, foodcategory: "Vegetable" },
+		"*-cauliflower-charred": { satiety: 150, foodcategory: "Vegetable" },
+		"*-beet-charred": { satiety: 50, foodcategory: "Vegetable" },
+		"*-eggplant-charred": { satiety: 50, foodcategory: "Fruit" },
+		"*-jalapeno-charred": { satiety: 50, foodcategory: "Vegetable" },
+		"*-pickledpotato-charred": { satiety: 40, foodcategory: "Vegetable" },
+		"*-pickledyam-charred": { satiety: 40, foodcategory: "Vegetable" },
+		"*-pickledcauliflower-charred": { satiety: 120, foodcategory: "Vegetable" },
+		"*-pickledbeet-charred": { satiety: 40, foodcategory: "Vegetable" },
+		"*-pickledeggplant-charred": { satiety: 40, foodcategory: "Fruit" },
+		"*-pickledjalapeno-charred": { satiety: 40, foodcategory: "Vegetable" },
 	},
 	guiTransformByType: {
 		"*-potato-*": {
