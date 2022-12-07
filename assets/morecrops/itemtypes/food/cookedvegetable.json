@@ -78,42 +78,6 @@
 		},
 	},
 	attributesByType: {
-		"cookedvegetable-*-partbaked": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 0.95,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-{type}-perfect",
-				initialCode: "morecrops:vegetable-{type}"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
-		"cookedvegetable-*-perfect": {
-			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.95,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedvegetable-{type}-charred",
-				initialCode: "morecrops:cookedvegetable-{type}-partbaked"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			}
-		},
 		"cookedvegetable-beet-charred": {
 			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
 			displaycaseable: true,
@@ -164,6 +128,42 @@
 			onDisplayTransform: {
 				translation: { x: 0.1, y: -0.4, z: 0.1 },
 				rotation: { x: 2, y: -47, z: -91 }
+			}
+		},
+		"cookedvegetable-*-partbaked": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.25,
+				levelTo: 0.5,
+				startScaleY: 0.95,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-{type}-perfect",
+				initialCode: "morecrops:vegetable-{type}"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"cookedvegetable-*-perfect": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 0.75,
+				startScaleY: 0.95,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-{type}-charred",
+				initialCode: "morecrops:cookedvegetable-{type}-partbaked"
+			},
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
 			}
 		}
 	},
