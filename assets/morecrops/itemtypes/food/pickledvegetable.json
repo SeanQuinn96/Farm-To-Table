@@ -1,0 +1,235 @@
+{
+	code: "pickledvegetable",
+	maxstacksize: 64,
+	variantgroups: [
+		{ code: "type", states: ["pickledbeet", "pickledcauliflower", "pickledeggplant", "pickledjalapeno", "pickledpotato", "pickledyam"] },
+	],
+	attributesByType: {
+		"*": {
+			displaycaseable: true,
+			shelvable: true,
+			crockable: true,
+			bakingProperties: {
+				temp: 160,
+				levelFrom: 0.0,
+				levelTo: 0.25,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedvegetable-{type}-partbaked",
+			},
+			inContainerTexture: { base: "morecrops:{type}" },
+			inPieProperties: { texture: "morecrops:fill-{type}", partType: 'Filling' },
+		},
+		"*-pickledbeet": {
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.194, z: 0 },
+				rotation: { x: 90, y: 0, z: 0 },
+				scale: 0.9      
+			}
+		},
+		"*-pickledcauliflower": {
+			onDisplayTransform: { 
+				translation: { x: 0, y: -0.048, z: 0 },
+				scale: 0.9      
+			}
+		},
+		"*-pickledeggplant": {
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: 0, y: 45, z: 0 },
+				scale: 1  
+			}
+		},
+		"*-pickledjalapeno": {
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"*-pickledpotato": {
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		},
+		"*-pickledyam": {
+			onDisplayTransform: { 
+				translation: { x: 0, y: 0, z: 0 },
+				scale: 1 
+			}
+		}
+	},
+	shape: {
+		base: "morecrops:item/food/pickledvegetable/{type}"
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	nutritionPropsByType: {
+		"*-pickledbeet": { saturation: 80, foodcategory: "Vegetable" },
+		"*-pickledcauliflower": { saturation: 265, foodcategory: "Vegetable" },
+		"*-pickledeggplant": { saturation: 80, foodcategory: "Fruit" },
+		"*-pickledjalapeno": { saturation: 80, foodcategory: "Vegetable" },
+		"*-pickledpotato": { saturation: 80, foodcategory: "Vegetable" },
+		"*-pickledyam": { saturation: 80, foodcategory: "Vegetable" },
+	},
+	transitionablePropsByType: {
+		"*": [{
+			type: "Perish",
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.5
+		}]
+	},
+	materialDensity: 600,
+	guiTransformByType: {
+		"*-pickledbeet": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.5, y: 0.25, z: 0.5 },
+			scale: 1.6
+		},
+		"*-pickledcauliflower": {
+			translation: { x: 2.5, y: 1, z: 0 },
+			rotation: { x: 137, y: 131, z: 0 },
+			origin: { x: 0.5, y: 0.2, z: 0.5 },
+			scale: 2.3
+		},
+		"*-pickledeggplant": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.56, y: 0.1, z: 0.42 },
+			scale: 3.6
+		},
+		"*-pickledjalapeno": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -57, y: 125, z: -195 },
+			origin: { x: 0.49, y: 0.05, z: 0.48 },
+			scale: 4.85
+		},
+		"*-pickledpotato": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 5.35
+		},
+		"*-pickledyam": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.56, y: 0.1, z: 0.42 },
+			scale: 5.35
+		}
+	},
+	fpHandTransformByType: {
+		"*-pickledbeet": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-pickledcauliflower": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 51, y: 90, z: -30 },
+			scale: 1.9
+		},
+		"*-pickledeggplant": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-pickledjalapeno": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-pickledpotato": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-pickledyam": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		}
+	},
+	tpHandTransformByType: {
+		"*-pickledbeet": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-pickledcauliflower": {
+			translation: { x: -0.7, y: -0.14, z: -0.6 },
+			rotation: { x: 1, y: -1, z: -31 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.79
+		},
+		"*-pickledeggplant": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-pickledjalapeno": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-pickledpotato": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-pickledyam": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		}
+	},
+	groundTransformByType: {
+		"*-pickledbeet": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 90, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0.5, z: 0.7 },
+			scale: 3
+		},
+		"*-pickledcauliflower": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.5
+		},
+		"*-pickledeggplant": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 83 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-pickledjalapeno": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-pickledpotato": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 83 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-pickledyam": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 83 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		}
+	}
+}
