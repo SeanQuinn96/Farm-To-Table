@@ -145,7 +145,6 @@
 				initialCode: "morecrops:vegetable-{type}"
 			},
 			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
 				scale: 1 
 			}
 		},
@@ -163,7 +162,6 @@
 				initialCode: "morecrops:cookedvegetable-{type}-partbaked"
 			},
 			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
 				scale: 1 
 			}
 		}
@@ -195,14 +193,12 @@
 		"*-pickledeggplant-partbaked": { satiety: 95, foodcategory: "Fruit" },
 		"*-pickled*-partbaked": { satiety: 95, foodcategory: "Vegetable" },
 		"*-partbaked": { satiety: 115, foodcategory: "Vegetable" },
-
 		"*-cauliflower-perfect": { satiety: 330, foodcategory: "Vegetable" },
 		"*-eggplant-perfect": { satiety: 130, foodcategory: "Fruit" },
 		"*-pickledcauliflower-perfect": { satiety: 270, foodcategory: "Vegetable" },
 		"*-pickledeggplant-perfect": { satiety: 110, foodcategory: "Fruit" },
 		"*-pickled*-perfect": { satiety: 110, foodcategory: "Vegetable" },
 		"*-perfect": { satiety: 110, foodcategory: "Vegetable" },
-
 		"*-cauliflower-charred": { satiety: 150, foodcategory: "Vegetable" },
 		"*-eggplant-charred": { satiety: 50, foodcategory: "Fruit" },
 		"*-pickledcauliflower-charred": { satiety: 120, foodcategory: "Vegetable" },
@@ -212,19 +208,16 @@
 	},
 	guiTransformByType: {
 		"@*-(yam-partbaked|yam-perfect|yam-charred|pickledyam-partbaked|pickledyam-perfect|pickledyam-charred)": {
-			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -37, y: 135, z: -155 },
 			origin: { x: 0.56, y: 0.1, z: 0.42 },
 			scale: 5.35
 		},
 		"@*-(corn-partbaked|corn-perfect|corn-charred)": {
-			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -37, y: 143, z: 131 },
 			origin: { x: 0.45, y: 0, z: 0.53 },
 			scale: 4.13
 		},
 		"@*-(potato-partbaked|potato-perfect|potato-charred|pickledpotato-partbaked|pickledpotato-perfect|pickledpotato-charred)": {
-			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -37, y: 135, z: -155 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
 			scale: 5.35
@@ -236,19 +229,16 @@
 			scale: 2.6
 		},
 		"@*-(beet-partbaked|beet-perfect|beet-charred|pickledbeet-partbaked|pickledbeet-perfect|pickledbeet-charred)": {
-			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -37, y: 135, z: -144 },
 			origin: { x: 0.5, y: 0.32, z: 0.5 },
 			scale: 3.04
 		},
 		"@*-(jalapeno-partbaked|jalapeno-perfect|jalapeno-charred|pickledjalapeno-partbaked|pickledjalapeno-perfect|pickledjalapeno-charred)": {
-			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -57, y: 125, z: -195 },
 			origin: { x: 0.49, y: 0.05, z: 0.48 },
 			scale: 4.85
 		},
 		"@*-(eggplant-partbaked|eggplant-perfect|eggplant-charred|pickledeggplant-partbaked|pickledeggplant-perfect|pickledeggplant-charred)": {
-			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -37, y: 135, z: -155 },
 			origin: { x: 0.56, y: 0.1, z: 0.42 },
 			scale: 3.6
@@ -256,42 +246,35 @@
 	},
 	fpHandTransformByType: {
 		"@*-(potato-partbaked|potato-perfect|potato-charred|pickledpotato-partbaked|pickledpotato-perfect|pickledpotato-charred)": {
-			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 45, y: 47, z: -30 },
 			origin: { x: 0.5, y: 0.3, z: 0.5 },
 			scale: 1.9
 		},
 		"@*-(yam-partbaked|yam-perfect|yam-charred|pickledyam-partbaked|pickledyam-perfect|pickledyam-charred)": {
-			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 45, y: 47, z: -30 },
 			origin: { x: 0.5, y: 0.3, z: 0.5 },
 			scale: 1.9
 		},
 		"@*-(corn-partbaked|corn-perfect|corn-charred)": {
-			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 40, y: -71, z: -8 },
 			origin: { x: 0.5, y: 0.15, z: 0.4 },
 			scale: 3.03
 		},
 		"@*-(cauliflower-partbaked|cauliflower-perfect|cauliflower-charred|pickledcauliflower-partbaked|pickledcauliflower-perfect|pickledcauliflower-charred)": {
-			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 51, y: 90, z: -30 },
 			scale: 1.9
 		},
 		"@*-(beet-partbaked|beet-perfect|beet-charred|pickledbeet-partbaked|pickledbeet-perfect|pickledbeet-charred)": {
-			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 45, y: 47, z: -30 },
 			origin: { x: 0.5, y: 0.3, z: 0.5 },
 			scale: 1.9
 		},
 		"@*-(eggplant-partbaked|eggplant-perfect|eggplant-charred|pickledeggplant-partbaked|pickledeggplant-perfect|pickledeggplant-charred)": {
-			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 45, y: 47, z: -30 },
 			origin: { x: 0.5, y: 0.3, z: 0.5 },
 			scale: 3
 		},
 		"@*-(jalapeno-partbaked|jalapeno-perfect|jalapeno-charred|pickledjalapeno-partbaked|pickledjalapeno-perfect|pickledjalapeno-charred)": {
-			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 45, y: 47, z: -30 },
 			origin: { x: 0.5, y: 0.3, z: 0.5 },
 			scale: 1.9
@@ -319,20 +302,15 @@
 	},
 	groundTransformByType: {
 		"@*-(cauliflower-partbaked|cauliflower-perfect|cauliflower-charred|pickledcauliflower-partbaked|pickledcauliflower-perfect|pickledcauliflower-charred)": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 3.5
 		},
 		"@*-(beet-partbaked|beet-perfect|beet-charred|pickledbeet-partbaked|pickledbeet-perfect|pickledbeet-charred)": {
-			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 90, y: 0, z: 0 },
 			origin: { x: 0.47, y: 0.5, z: 0.7 },
 			scale: 3
 		},
 		"*": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
 			origin: { x: 0.47, y: 0, z: 0.5 },
 			scale: 4.3
 		}
@@ -343,42 +321,42 @@
 			freshHours: { avg: 900 },
 			transitionHours: { avg: 48 },
 			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			transitionRatio: 0.5
 		}],
 		"pickled*-perfect": [{
 			type: "Perish",
 			freshHours: { avg: 450 },
 			transitionHours: { avg: 48 },
 			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			transitionRatio: 0.5
 		}],
 		"pickled*-charred": [{
 			type: "Perish",
 			freshHours: { avg: 1350 },
 			transitionHours: { avg: 80 },
 			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			transitionRatio: 0.5
 		}],
 		"*-partbaked": [{
 			type: "Perish",
 			freshHours: { avg: 252 },
 			transitionHours: { avg: 48 },
 			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			transitionRatio: 0.5
 		}],
 		"*-perfect": [{
 			type: "Perish",
 			freshHours: { avg: 126 },
 			transitionHours: { avg: 48 },
 			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			transitionRatio: 0.5
 		}],
 		"*-charred": [{
 			type: "Perish",
 			freshHours: { avg: 378 },
 			transitionHours: { avg: 80 },
 			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
+			transitionRatio: 0.5
 		}]
 	},
 	grindingPropsByType: {
