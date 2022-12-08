@@ -8,47 +8,27 @@
         {
           "type": "item",
           "code": "morecrops:vegetable-*",
-          "shapeElement": "bowl/vegetable 1/*",
-		  "textureMapping": [
-            "vegetable",
-            "group8"
-          ]
+          "shapeElement": "bowl/vegetable 1/*"
         },
 		{
           "type": "item",
           "code": "morecrops:pickledvegetable-*",
-          "shapeElement": "bowl/vegetable 1/*",
-		  "textureMapping": [
-            "vegetable",
-            "group4"
-          ]
+          "shapeElement": "bowl/vegetable 1/*"
         },
 		{
           "type": "item",
           "code": "morecrops:cookedvegetable-*",
-          "shapeElement": "bowl/vegetable 1/*",
-		  "textureMapping": [
-            "vegetable",
-            "group7"
-          ]
+          "shapeElement": "bowl/vegetable 1/*"
         },
 		{
           "type": "item",
           "code": "morecrops:choppedvegetable-*",
-          "shapeElement": "bowl/vegetable 1/*",
-		  "textureMapping": [
-            "vegetable",
-            "group1"
-          ]
+          "shapeElement": "bowl/vegetable 1/*"
         },
         {
           "type": "item",
           "code": "morecrops:cookedchoppedvegetable-*",
-          "shapeElement": "bowl/vegetable 1/*",
-          "textureMapping": [
-            "vegetable",
-            "group11"
-          ]
+          "shapeElement": "bowl/vegetable 1/*"
         }
       ],
       "minQuantity": 0,
@@ -66,47 +46,27 @@
         {
           "type": "item",
           "code": "morecrops:vegetable-*",
-          "shapeElement": "bowl/vegetable 2/*",
-		  "textureMapping": [
-            "vegetable",
-            "group1"
-          ]
+          "shapeElement": "bowl/vegetable 2/*"
         },
 		{
           "type": "item",
           "code": "morecrops:pickledvegetable-*",
-          "shapeElement": "bowl/vegetable 2/*",
-		  "textureMapping": [
-            "vegetable",
-            "group2"
-          ]
+          "shapeElement": "bowl/vegetable 2/*"
         },
 		{
           "type": "item",
           "code": "morecrops:cookedvegetable-*",
-          "shapeElement": "bowl/vegetable 2/*",
-		  "textureMapping": [
-            "vegetable",
-            "group3"
-          ]
+          "shapeElement": "bowl/vegetable 2/*"
         },
 		{
           "type": "item",
           "code": "morecrops:choppedvegetable-*",
-          "shapeElement": "bowl/vegetable 2/*",
-		  "textureMapping": [
-            "vegetable",
-            "group4"
-          ]
+          "shapeElement": "bowl/vegetable 2/*"
         },
         {
           "type": "item",
           "code": "morecrops:cookedchoppedvegetable-*",
-          "shapeElement": "bowl/vegetable 2/*",
-          "textureMapping": [
-            "vegetable",
-            "group5"
-          ]
+          "shapeElement": "bowl/vegetable 2/*"
         }
       ],
       "minQuantity": 0,
