@@ -17,7 +17,7 @@
 				initialCode: "morecrops:cookedvegetable-beet-partbaked"
 			},
 			nutritionPropsWhenInMeal: {
-				satiety: 100, 
+				satiety: 150, 
 				foodcategory: "Vegetable"
 			},
 			onDisplayTransform: {
@@ -29,7 +29,7 @@
 			displaycaseable: true,
 			shelvable: true,
 			nutritionPropsWhenInMeal: {
-				satiety: 315, 
+				satiety: 450, 
 				foodcategory: "Vegetable"
 			}
 		},
@@ -37,7 +37,7 @@
 			displaycaseable: true,
 			shelvable: true,
 			nutritionPropsWhenInMeal: {
-				satiety: 100, 
+				satiety: 150, 
 				foodcategory: "Fruit"
 			}
 		},
@@ -45,7 +45,7 @@
 			displaycaseable: true,
 			shelvable: true,
 			nutritionPropsWhenInMeal: {
-				satiety: 100, 
+				satiety: 150, 
 				foodcategory: "Vegetable"
 			},
 			bakingProperties: {

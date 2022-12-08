@@ -48,68 +48,8 @@
 	},
 	maxstacksize: 64,
 	attributesByType: {
-		"*-potato": {
-			nutritionPropsWhenInMeal: { satiety: 185, foodcategory: "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedchoppedvegetable-potato-partbaked",
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			},
-    			inPieProperties: { texture: "morecrops:fill-potato", partType: 'Filling' },
-		},
-
-		"*-yam": {
-			nutritionPropsWhenInMeal: { satiety: 185, foodcategory: "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedchoppedvegetable-yam-partbaked",
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			},
-    			inPieProperties: { texture: "morecrops:fill-yam", partType: 'Filling' },
-		},
-
-		"*-corn": {
-			nutritionPropsWhenInMeal: { satiety: 265, foodcategory: "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedchoppedvegetable-corn-partbaked",
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			},
-    			inPieProperties: { texture: "morecrops:fill-corn", partType: 'Filling' },
-		},
-
 		"*-cauliflower": {
-			nutritionPropsWhenInMeal: { satiety: 400, foodcategory: "Vegetable" },
+			nutritionPropsWhenInMeal: { satiety: 460, foodcategory: "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			displaycaseable: true,
 			shelvable: true,
@@ -125,31 +65,11 @@
 				translation: { x: 0, y: 0, z: 0 },
 				scale: 1 
 			},
-    			inPieProperties: { texture: "morecrops:fill-cauliflower", partType: 'Filling' },
-		},
-
-		"*-beet": {
-			nutritionPropsWhenInMeal: { satiety: 185, foodcategory: "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedchoppedvegetable-beet-partbaked",
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			},
-    			inPieProperties: { texture: "morecrops:fill-beet", partType: 'Filling' },
+    		inPieProperties: { texture: "morecrops:fill-cauliflower", partType: 'Filling' },
 		},
 
 		"*-eggplant": {
-			nutritionPropsWhenInMeal: { satiety: 240, foodcategory: "Fruit" },
+			nutritionPropsWhenInMeal: { satiety: 160, foodcategory: "Fruit" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			displaycaseable: true,
 			shelvable: true,
@@ -165,71 +85,10 @@
 				translation: { x: 0, y: 0, z: 0 },
 				scale: 1 
 			},
-    			inPieProperties: { texture: "morecrops:fill-eggplant", partType: 'Filling' },
+    		inPieProperties: { texture: "morecrops:fill-eggplant", partType: 'Filling' },
 		},
-
-		"*-jalapeno": {
-			nutritionPropsWhenInMeal: { satiety: 185, foodcategory: "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedchoppedvegetable-jalapeno-partbaked",
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			},
-    			inPieProperties: { texture: "morecrops:fill-jalapeno", partType: 'Filling' },
-		},
-
-		"*-pickledpotato": {
-			nutritionPropsWhenInMeal: { satiety: 170, foodcategory: "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedchoppedvegetable-pickledpotato-partbaked",
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			},
-    			inPieProperties: { texture: "morecrops:fill-pickledpotato", partType: 'Filling' },
-		},
-
-		"*-pickledyam": {
-			nutritionPropsWhenInMeal: { satiety: 170, foodcategory: "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedchoppedvegetable-pickledyam-partbaked",
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			},
-    			inPieProperties: { texture: "morecrops:fill-pickledyam", partType: 'Filling' },
-		},
-
 		"*-pickledcauliflower": {
-			nutritionPropsWhenInMeal: { satiety: 370, foodcategory: "Vegetable" },
+			nutritionPropsWhenInMeal: { satiety: 310, foodcategory: "Fruit" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			displaycaseable: true,
 			shelvable: true,
@@ -241,35 +100,11 @@
 				endScaleY: 1.0,
 				resultCode: "morecrops:cookedchoppedvegetable-pickledcauliflower-partbaked",
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			},
-    			inPieProperties: { texture: "morecrops:fill-pickledcauliflower", partType: 'Filling' },
-		},
-
-		"*-pickledbeet": {
-			nutritionPropsWhenInMeal: { satiety: 170, foodcategory: "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "morecrops:cookedchoppedvegetable-pickledbeet-partbaked",
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			},
-    			inPieProperties: { texture: "morecrops:fill-pickledbeet", partType: 'Filling' },
+    		inPieProperties: { texture: "morecrops:fill-pickledcauliflower", partType: 'Filling' },
 		},
 
 		"*-pickledeggplant": {
-			nutritionPropsWhenInMeal: { satiety: 220, foodcategory: "Fruit" },
+			nutritionPropsWhenInMeal: { satiety: 140, foodcategory: "Fruit" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			displaycaseable: true,
 			shelvable: true,
@@ -281,15 +116,10 @@
 				endScaleY: 1.0,
 				resultCode: "morecrops:cookedchoppedvegetable-pickledeggplant-partbaked",
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			},
-    			inPieProperties: { texture: "morecrops:fill-pickledeggplant", partType: 'Filling' },
+    		inPieProperties: { texture: "morecrops:fill-pickledeggplant", partType: 'Filling' }
 		},
-
-		"*-pickledjalapeno": {
-			nutritionPropsWhenInMeal: { satiety: 170, foodcategory: "Vegetable" },
+		"*-pickled*": {
+			nutritionPropsWhenInMeal: { satiety: 140, foodcategory: "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			displaycaseable: true,
 			shelvable: true,
@@ -299,14 +129,25 @@
 				levelTo: 0.25,
 				startScaleY: 1.0,
 				endScaleY: 1.0,
-				resultCode: "morecrops:cookedchoppedvegetable-pickledjalapeno-partbaked",
+				resultCode: "morecrops:cookedchoppedvegetable-{type}-partbaked",
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: 0, z: 0 },
-				scale: 1 
-			},
-    			inPieProperties: { texture: "morecrops:fill-pickledjalapeno", partType: 'Filling' },
+    		inPieProperties: { texture: "morecrops:fill-{type}", partType: 'Filling' },
 		},
+		"*": {
+			nutritionPropsWhenInMeal: { satiety: 160, foodcategory: "Vegetable" },
+			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.0,
+				levelTo: 0.25,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "morecrops:cookedchoppedvegetable-{type}-partbaked",
+			},
+    		inPieProperties: { texture: "morecrops:fill-{type}", partType: 'Filling' }
+		}
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	nutritionPropsByType: {
@@ -434,102 +275,20 @@
 
 	},
 	transitionablePropsByType: {
-		"*-potato": [{
+		"*-pickled*": [{
+			type: "Perish",
+			freshHours: { avg:  900 },
+			transitionHours: { avg: 96 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.5
+		}],
+		"*": [{
 			type: "Perish",
 			freshHours: { avg:  252 },
 			transitionHours: { avg: 48 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.5
-		}],
-		"*-yam": [{
-			type: "Perish",
-			freshHours: { avg:  252 },
-			transitionHours: { avg: 48 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		}],
-		"*-corn": [{
-			type: "Perish",
-			freshHours: { avg:  252 },
-			transitionHours: { avg: 48 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		}],
-		"*-cauliflower": [{
-			type: "Perish",
-			freshHours: { avg:  252 },
-			transitionHours: { avg: 48 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		}],
-		"*-beet": [{
-			type: "Perish",
-			freshHours: { avg:  252 },
-			transitionHours: { avg: 48 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		}],
-		"*-eggplant": [{
-			type: "Perish",
-			freshHours: { avg:  252 },
-			transitionHours: { avg: 48 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		}],
-		"*-jalapeno": [{
-			type: "Perish",
-			freshHours: { avg:  252 },
-			transitionHours: { avg: 48 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		}],
-
-
-
-
-		"*-pickledpotato": [{
-			type: "Perish",
-			freshHours: { avg:  1800 },
-			transitionHours: { avg: 240 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		}],
-		"*-pickledyam": [{
-			type: "Perish",
-			freshHours: { avg:  1800 },
-			transitionHours: { avg: 240 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		}],
-		"*-pickledcauliflower": [{
-			type: "Perish",
-			freshHours: { avg:  1800 },
-			transitionHours: { avg: 240 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		}],
-		"*-pickledbeet": [{
-			type: "Perish",
-			freshHours: { avg:  1800 },
-			transitionHours: { avg: 240 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		}],
-		"*-pickledeggplant": [{
-			type: "Perish",
-			freshHours: { avg:  1800 },
-			transitionHours: { avg: 240 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		}],
-		"*-pickledjalapeno": [{
-			type: "Perish",
-			freshHours: { avg:  1800 },
-			transitionHours: { avg: 240 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		}],
-
+		}]
 	},
 	materialDensity: 600,
 	guiTransformByType: {
@@ -851,8 +610,5 @@
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
 			scale: 0.8
 		},
-	},
-  	grindingPropsByType: {
-    		"*-corn": { grindedStack: { type: "item", code: "morecrops:cornflour-corn" }, stacksize: 1}
-  	}
+	}
 }
