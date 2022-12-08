@@ -17,17 +17,7 @@
         },
 		{
           "type": "item",
-          "code": "morecrops:cookedvegetable-*",
-          "shapeElement": "bowl/vegetable 1/*"
-        },
-		{
-          "type": "item",
           "code": "morecrops:choppedvegetable-*",
-          "shapeElement": "bowl/vegetable 1/*"
-        },
-        {
-          "type": "item",
-          "code": "morecrops:cookedchoppedvegetable-*",
           "shapeElement": "bowl/vegetable 1/*"
         }
       ],
@@ -55,17 +45,7 @@
         },
 		{
           "type": "item",
-          "code": "morecrops:cookedvegetable-*",
-          "shapeElement": "bowl/vegetable 2/*"
-        },
-		{
-          "type": "item",
           "code": "morecrops:choppedvegetable-*",
-          "shapeElement": "bowl/vegetable 2/*"
-        },
-        {
-          "type": "item",
-          "code": "morecrops:cookedchoppedvegetable-*",
           "shapeElement": "bowl/vegetable 2/*"
         }
       ],
