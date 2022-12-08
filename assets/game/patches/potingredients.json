@@ -1,0 +1,507 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/choppedvegetable-beet",
+    "value": [
+      "vegetable",
+      "beet"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/choppedvegetable-cauliflower",
+    "value": [
+      "vegetable",
+      "cauliflower"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/choppedvegetable-corn",
+    "value": [
+      "vegetable",
+      "corn"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/choppedvegetable-eggplant",
+    "value": [
+      "vegetable",
+      "group5"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/choppedvegetable-jalapeno",
+    "value": [
+      "vegetable",
+      "jalapeno"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/choppedvegetable-pickledbeet",
+    "value": [
+      "vegetable",
+      "beet"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/choppedvegetable-pickledcauliflower",
+    "value": [
+      "vegetable",
+      "cauliflower"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/choppedvegetable-pickledeggplant",
+    "value": [
+      "vegetable",
+      "group5"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/choppedvegetable-pickledjalapeno",
+    "value": [
+      "vegetable",
+      "jalapeno"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/choppedvegetable-pickledpotato",
+    "value": [
+      "vegetable",
+      "group6"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/choppedvegetable-pickledyam",
+    "value": [
+      "vegetable",
+      "group1"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/choppedvegetable-potato",
+    "value": [
+      "vegetable",
+      "group6"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/choppedvegetable-yam",
+    "value": [
+      "vegetable",
+      "group1"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedchoppedvegetable-beet",
+    "value": [
+      "vegetable",
+      "beet"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedchoppedvegetable-cauliflower",
+    "value": [
+      "vegetable",
+      "cauliflower"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedchoppedvegetable-corn",
+    "value": [
+      "vegetable",
+      "corn"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedchoppedvegetable-eggplant",
+    "value": [
+      "vegetable",
+      "group5"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedchoppedvegetable-jalapeno",
+    "value": [
+      "vegetable",
+      "jalapeno"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedchoppedvegetable-pickledbeet",
+    "value": [
+      "vegetable",
+      "beet"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedchoppedvegetable-pickledcauliflower",
+    "value": [
+      "vegetable",
+      "cauliflower"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedchoppedvegetable-pickledeggplant",
+    "value": [
+      "vegetable",
+      "group5"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedchoppedvegetable-pickledjalapeno",
+    "value": [
+      "vegetable",
+      "jalapeno"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedchoppedvegetable-pickledpotato",
+    "value": [
+      "vegetable",
+      "group6"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedchoppedvegetable-pickledyam",
+    "value": [
+      "vegetable",
+      "group1"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedchoppedvegetable-potato",
+    "value": [
+      "vegetable",
+      "group6"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedchoppedvegetable-yam",
+    "value": [
+      "vegetable",
+      "group1"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedvegetable-beet",
+    "value": [
+      "vegetable",
+      "beet"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedvegetable-cauliflower",
+    "value": [
+      "vegetable",
+      "cauliflower"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedvegetable-corn",
+    "value": [
+      "vegetable",
+      "corn"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedvegetable-eggplant",
+    "value": [
+      "vegetable",
+      "group5"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedvegetable-jalapeno",
+    "value": [
+      "vegetable",
+      "jalapeno"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedvegetable-pickledbeet",
+    "value": [
+      "vegetable",
+      "beet"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedvegetable-pickledcauliflower",
+    "value": [
+      "vegetable",
+      "cauliflower"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedvegetable-pickledeggplant",
+    "value": [
+      "vegetable",
+      "group5"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedvegetable-pickledjalapeno",
+    "value": [
+      "vegetable",
+      "jalapeno"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedvegetable-pickledpotato",
+    "value": [
+      "vegetable",
+      "group6"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedvegetable-pickledyam",
+    "value": [
+      "vegetable",
+      "group1"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedvegetable-potato",
+    "value": [
+      "vegetable",
+      "group6"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/cookedvegetable-yam",
+    "value": [
+      "vegetable",
+      "group1"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/pickledvegetable-beet",
+    "value": [
+      "vegetable",
+      "beet"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/pickledvegetable-cauliflower",
+    "value": [
+      "vegetable",
+      "cauliflower"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/pickledvegetable-eggplant",
+    "value": [
+      "vegetable",
+      "group5"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/pickledvegetable-jalapeno",
+    "value": [
+      "vegetable",
+      "jalapeno"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/pickledvegetable-potato",
+    "value": [
+      "vegetable",
+      "group6"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/pickledvegetable-yam",
+    "value": [
+      "vegetable",
+      "group1"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/vegetable-beet",
+    "value": [
+      "vegetable",
+      "beet"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/vegetable-cauliflower",
+    "value": [
+      "vegetable",
+      "cauliflower"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/vegetable-corn",
+    "value": [
+      "vegetable",
+      "corn"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/vegetable-eggplant",
+    "value": [
+      "vegetable",
+      "group5"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/vegetable-jalapeno",
+    "value": [
+      "vegetable",
+      "jalapeno"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/vegetable-potato",
+    "value": [
+      "vegetable",
+      "group6"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/vegetable-yam",
+    "value": [
+      "vegetable",
+      "group1"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "remove",
+    "path": "/behaviors/1/__comment",
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/beet",
+    "value": {
+      "base": "morecrops:block/food/meal/beet"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/cauliflower",
+    "value": {
+      "base": "morecrops:block/food/meal/cauliflower"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/corn",
+    "value": {
+      "base": "morecrops:block/food/meal/corn"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/jalapeno",
+    "value": {
+      "base": "morecrops:block/food/meal/jalapeno"
+    },
+    "file": "blocktypes/clay/pot.json"
+  }
+]

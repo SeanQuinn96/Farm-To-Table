@@ -1,0 +1,118 @@
+[
+  {
+    "op": "add",
+    "path": "/ingredients/4",
+    "value": {
+      "code": "vegetable-extra",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "morecrops:vegetable-*",
+          "shapeElement": "bowl/vegetable 1/*",
+		  "textureMapping": [
+            "vegetable",
+            "group8"
+          ]
+        },
+		{
+          "type": "item",
+          "code": "morecrops:pickledvegetable-*",
+          "shapeElement": "bowl/vegetable 1/*",
+		  "textureMapping": [
+            "vegetable",
+            "group4"
+          ]
+        },
+		{
+          "type": "item",
+          "code": "morecrops:cookedvegetable-*",
+          "shapeElement": "bowl/vegetable 1/*",
+		  "textureMapping": [
+            "vegetable",
+            "group7"
+          ]
+        },
+		{
+          "type": "item",
+          "code": "morecrops:choppedvegetable-*",
+          "shapeElement": "bowl/vegetable 1/*",
+		  "textureMapping": [
+            "vegetable",
+            "group1"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "morecrops:cookedchoppedvegetable-*",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group11"
+          ]
+        }
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "side": "server",
+    "file": "recipes/cooking/scrambledeggs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5",
+    "value": {
+      "code": "vegetable-base2",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "morecrops:vegetable-*",
+          "shapeElement": "bowl/vegetable 2/*",
+		  "textureMapping": [
+            "vegetable",
+            "group1"
+          ]
+        },
+		{
+          "type": "item",
+          "code": "morecrops:pickledvegetable-*",
+          "shapeElement": "bowl/vegetable 2/*",
+		  "textureMapping": [
+            "vegetable",
+            "group2"
+          ]
+        },
+		{
+          "type": "item",
+          "code": "morecrops:cookedvegetable-*",
+          "shapeElement": "bowl/vegetable 2/*",
+		  "textureMapping": [
+            "vegetable",
+            "group3"
+          ]
+        },
+		{
+          "type": "item",
+          "code": "morecrops:choppedvegetable-*",
+          "shapeElement": "bowl/vegetable 2/*",
+		  "textureMapping": [
+            "vegetable",
+            "group4"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "morecrops:cookedchoppedvegetable-*",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group5"
+          ]
+        }
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "side": "server",
+    "file": "recipes/cooking/scrambledeggs.json"
+  }
+]

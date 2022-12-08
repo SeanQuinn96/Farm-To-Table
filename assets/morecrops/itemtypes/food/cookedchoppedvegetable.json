@@ -16,8 +16,6 @@
 		"cookedchoppedvegetable-potato-charred": {
 			"fill-potato": {base: "morecrops:item/food/partbaked/choppedpotato"},
 		},
-
-
 		"cookedchoppedvegetable-yam-partbaked": {
 			"fill-yam": {base: "morecrops:item/food/partbaked/choppedyam"},
 		},
@@ -27,8 +25,6 @@
 		"cookedchoppedvegetable-yam-charred": {
 			"fill-yam": {base: "morecrops:item/food/charred/choppedyam"},
 		},
-
-
 		"cookedchoppedvegetable-corn-partbaked": {
 			"fill-corn": {base: "morecrops:item/food/partbaked/choppedcorn"},
 		},
@@ -38,8 +34,6 @@
 		"cookedchoppedvegetable-corn-charred": {
 			"normal1": {base: "morecrops:item/food/charred/choppedcorn"},
 		},
-
-
 		"cookedchoppedvegetable-cauliflower-partbaked": {
 			"top": {base: "morecrops:item/food/partbaked/choppedcauliflower"},
 		},
@@ -49,8 +43,6 @@
 		"cookedchoppedvegetable-cauliflower-charred": {
 			"top": {base: "morecrops:item/food/charred/choppedcauliflower"},
 		},
-
-
 		"cookedchoppedvegetable-beet-partbaked": {
 			"beet": {base: "morecrops:item/food/partbaked/choppedbeet"},
 		},
@@ -60,8 +52,6 @@
 		"cookedchoppedvegetable-beet-charred": {
 			"beet": {base: "morecrops:item/food/charred/choppedbeet"},
 		},
-
-
 		"cookedchoppedvegetable-eggplant-partbaked": {
 			"fill-eggplant": {base: "morecrops:item/food/partbaked/choppedeggplant"},
 		},
@@ -71,8 +61,6 @@
 		"cookedchoppedvegetable-eggplant-charred": {
 			"fill-eggplant": {base: "morecrops:item/food/charred/choppedeggplant"},
 		},
-
-
 		"cookedchoppedvegetable-jalapeno-partbaked": {
 			"largeleavesjalapenos": {base: "morecrops:item/food/partbaked/choppedjalapeno"},
 		},
@@ -82,11 +70,6 @@
 		"cookedchoppedvegetable-jalapeno-charred": {
 			"largeleavesjalapenos": {base: "morecrops:item/food/charred/choppedjalapeno"},
 		},
-
-
-
-
-
 		"cookedchoppedvegetable-pickledpotato-partbaked": {
 			"fill-pickledpotato": {base: "morecrops:item/food/partbaked/choppedpickledpotato"},
 		},
@@ -96,7 +79,6 @@
 		"cookedchoppedvegetable-pickledpotato-charred": {
 			"fill-pickledpotato": {base: "morecrops:item/food/charred/choppedpickledpotato"},
 		},
-
 		"cookedchoppedvegetable-pickledyam-partbaked": {
 			"fill-pickledyam": {base: "morecrops:item/food/partbaked/choppedpickledyam"},
 		},
@@ -106,7 +88,6 @@
 		"cookedchoppedvegetable-pickledyam-charred": {
 			"fill-pickledyam": {base: "morecrops:item/food/charred/choppedpickledyam"},
 		},
-
 		"cookedchoppedvegetable-pickledcauliflower-partbaked": {
 			"pickledtop": {base: "morecrops:item/food/partbaked/choppedpickledcauliflower"},
 		},
@@ -116,7 +97,6 @@
 		"cookedchoppedvegetable-pickledcauliflower-charred": {
 			"pickledtop": {base: "morecrops:item/food/charred/choppedpickledcauliflower"},
 		},
-
 		"cookedchoppedvegetable-pickledbeet-partbaked": {
 			"pickledbeet": {base: "morecrops:item/food/partbaked/choppedpickledbeet"},
 		},
@@ -126,7 +106,6 @@
 		"cookedchoppedvegetable-pickledbeet-charred": {
 			"pickledbeet": {base: "morecrops:item/food/charred/choppedpickledbeet"},
 		},
-
 		"cookedchoppedvegetable-pickledeggplant-partbaked": {
 			"fill-pickledeggplant": {base: "morecrops:item/food/partbaked/choppedpickledeggplant"},
 		},
@@ -136,7 +115,6 @@
 		"cookedchoppedvegetable-pickledeggplant-charred": {
 			"fill-pickledeggplant": {base: "morecrops:item/food/charred/choppedpickledeggplant"},
 		},
-
 		"cookedchoppedvegetable-pickledjalapeno-partbaked": {
 			"pickledjalapeno": {base: "morecrops:item/food/partbaked/choppedpickledjalapeno"},
 		},
@@ -1536,6 +1514,5 @@
 			origin: { x: 0.47, y: 0, z: 0.5 },
 			scale: 4.3
 		},
-
 	}
 }
