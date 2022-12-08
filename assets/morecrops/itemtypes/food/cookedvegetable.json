@@ -37,6 +37,8 @@
 			"eggplant": {base: "morecrops:item/food/partbaked/pickledeggplant"},
 			"jalapeno": {base: "morecrops:item/food/partbaked/pickledjalapeno"},
 			"e5": {base: "game:block/transparent"},
+			"e1": {base: "game:block/transparent"},
+			"s1": {base: "game:block/transparent"},
 			"s5": {base: "game:block/transparent"},
 			"e3": {base: "game:block/transparent"}
 		},
@@ -55,6 +57,8 @@
 			"eggplant": {base: "morecrops:item/food/perfect/pickledeggplant"},
 			"jalapeno": {base: "morecrops:item/food/perfect/pickledjalapeno"},
 			"e5": {base: "game:block/transparent"},
+			"e1": {base: "game:block/transparent"},
+			"s1": {base: "game:block/transparent"},
 			"s5": {base: "game:block/transparent"},
 			"e3": {base: "game:block/transparent"}
 		},
@@ -73,9 +77,11 @@
 			"eggplant": {base: "morecrops:item/food/charred/pickledeggplant"},
 			"jalapeno": {base: "morecrops:item/food/charred/pickledjalapeno"},
 			"e5": {base: "game:block/transparent"},
+			"e1": {base: "game:block/transparent"},
+			"s1": {base: "game:block/transparent"},
 			"s5": {base: "game:block/transparent"},
 			"e3": {base: "game:block/transparent"}
-		},
+		}
 	},
 	attributesByType: {
 		"cookedvegetable-beet-partbaked": {
@@ -161,6 +167,14 @@
 				resultCode: "morecrops:cookedvegetable-{type}-charred",
 				initialCode: "morecrops:cookedvegetable-{type}-partbaked"
 			},
+			onDisplayTransform: { 
+				scale: 1 
+			}
+		},
+		"cookedvegetable-*-charred": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			displaycaseable: true,
+			shelvable: true,
 			onDisplayTransform: { 
 				scale: 1 
 			}
