@@ -98,7 +98,7 @@
 				initialCode: "morecrops:vegetable-{type}"
 			},
 			nutritionPropsWhenInMeal: {
-				satiety: 130, 
+				satiety: 160, 
 				foodcategory: "Vegetable"
 			},
 			onDisplayTransform: {
@@ -120,7 +120,7 @@
 				initialCode: "morecrops:cookedvegetable-{type}-partbaked"
 			},
 			nutritionPropsWhenInMeal: {
-				satiety: 150, 
+				satiety: 170, 
 				foodcategory: "Vegetable"
 			},
 			onDisplayTransform: {
@@ -163,7 +163,7 @@
 				initialCode: "morecrops:vegetable-{type}"
 			},
 			nutritionPropsWhenInMeal: {
-				satiety: 100, 
+				satiety: 140, 
 				foodcategory: "Vegetable"
 			},
 			onDisplayTransform: {
@@ -185,7 +185,7 @@
 				initialCode: "morecrops:cookedvegetable-{type}-partbaked"
 			},
 			nutritionPropsWhenInMeal: {
-				satiety: 120, 
+				satiety: 150, 
 				foodcategory: "Vegetable"
 			},
 			onDisplayTransform: {
@@ -219,7 +219,7 @@
 			displaycaseable: true,
 			shelvable: true,
 			nutritionPropsWhenInMeal: {
-				satiety: 330, 
+				satiety: 460, 
 				foodcategory: "Vegetable"
 			},
 			onDisplayTransform: { 
@@ -231,7 +231,7 @@
 			displaycaseable: true,
 			shelvable: true,
 			nutritionPropsWhenInMeal: {
-				satiety: 260, 
+				satiety: 470, 
 				foodcategory: "Vegetable"
 			},
 			onDisplayTransform: { 
@@ -255,7 +255,7 @@
 			displaycaseable: true,
 			shelvable: true,
 			nutritionPropsWhenInMeal: {
-				satiety: 260, 
+				satiety: 310, 
 				foodcategory: "Vegetable"
 			},
 			onDisplayTransform: { 
@@ -267,7 +267,7 @@
 			displaycaseable: true,
 			shelvable: true,
 			nutritionPropsWhenInMeal: {
-				satiety: 280, 
+				satiety: 320, 
 				foodcategory: "Vegetable"
 			},
 			onDisplayTransform: { 
@@ -291,7 +291,7 @@
 			displaycaseable: true,
 			shelvable: true,
 			nutritionPropsWhenInMeal: {
-				satiety: 130, 
+				satiety: 160, 
 				foodcategory: "Fruit"
 			},
 			onDisplayTransform: { 
@@ -303,7 +303,7 @@
 			displaycaseable: true,
 			shelvable: true,
 			nutritionPropsWhenInMeal: {
-				satiety: 150, 
+				satiety: 170, 
 				foodcategory: "Fruit"
 			},
 			onDisplayTransform: { 
@@ -327,7 +327,7 @@
 			displaycaseable: true,
 			shelvable: true,
 			nutritionPropsWhenInMeal: {
-				satiety: 100, 
+				satiety: 140, 
 				foodcategory: "Fruit"
 			},
 			onDisplayTransform: { 
@@ -339,7 +339,7 @@
 			displaycaseable: true,
 			shelvable: true,
 			nutritionPropsWhenInMeal: {
-				satiety: 120, 
+				satiety: 150, 
 				foodcategory: "Fruit"
 			},
 			onDisplayTransform: { 
@@ -372,7 +372,7 @@
 				initialCode: "morecrops:vegetable-{type}"
 			},
 			nutritionPropsWhenInMeal: {
-				satiety: 130, 
+				satiety: 160, 
 				foodcategory: "Vegetable"
 			},
 			onDisplayTransform: { 
@@ -393,7 +393,7 @@
 				initialCode: "morecrops:cookedvegetable-{type}-partbaked"
 			},
 			nutritionPropsWhenInMeal: {
-				satiety: 150, 
+				satiety: 170, 
 				foodcategory: "Vegetable"
 			},
 			onDisplayTransform: { 
@@ -426,7 +426,7 @@
 				initialCode: "morecrops:vegetable-{type}"
 			},
 			nutritionPropsWhenInMeal: {
-				satiety: 100, 
+				satiety: 140, 
 				foodcategory: "Vegetable"
 			},
 			onDisplayTransform: { 
@@ -447,7 +447,7 @@
 				initialCode: "morecrops:cookedvegetable-{type}-partbaked"
 			},
 			nutritionPropsWhenInMeal: {
-				satiety: 120, 
+				satiety: 150, 
 				foodcategory: "Vegetable"
 			},
 			onDisplayTransform: { 

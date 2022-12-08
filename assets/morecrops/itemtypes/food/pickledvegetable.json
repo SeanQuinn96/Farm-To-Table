@@ -7,7 +7,7 @@
 	attributesByType: {
 		"*-pickledbeet": {
 			nutritionPropsWhenInMeal: {
-				satiety: 90, 
+				satiety: 130, 
 				foodcategory: "Vegetable"
 			},
 			onDisplayTransform: { 
@@ -17,7 +17,7 @@
 		},
 		"*-pickledcauliflower": {
 			nutritionPropsWhenInMeal: {
-				satiety: 250, 
+				satiety: 300, 
 				foodcategory: "Vegetable"
 			},
 			onDisplayTransform: { 
@@ -27,7 +27,7 @@
 		},
 		"*-pickledeggplant": {
 			nutritionPropsWhenInMeal: {
-				satiety: 90, 
+				satiety: 130, 
 				foodcategory: "Fruit"
 			},
 			onDisplayTransform: { 
@@ -40,7 +40,7 @@
 			shelvable: true,
 			crockable: true,
 			nutritionPropsWhenInMeal: {
-				satiety: 90, 
+				satiety: 130, 
 				foodcategory: "Vegetable"
 			},
 			bakingProperties: {
