@@ -16,14 +16,38 @@
 				endScaleY: 1.0,
 				initialCode: "morecrops:cookedvegetable-beet-partbaked"
 			},
+			nutritionPropsWhenInMeal: {
+				satiety: 100, 
+				foodcategory: "Vegetable"
+			},
 			onDisplayTransform: {
 				translation: { x: 0.1, y: -0.4, z: 0.1 },
 				rotation: { x: 2, y: -47, z: -91 }
 			}
 		},
+		"*cauliflower*": {
+			displaycaseable: true,
+			shelvable: true,
+			nutritionPropsWhenInMeal: {
+				satiety: 315, 
+				foodcategory: "Vegetable"
+			}
+		},
+		"*eggplant*": {
+			displaycaseable: true,
+			shelvable: true,
+			nutritionPropsWhenInMeal: {
+				satiety: 100, 
+				foodcategory: "Fruit"
+			}
+		},
 		"*": {
 			displaycaseable: true,
 			shelvable: true,
+			nutritionPropsWhenInMeal: {
+				satiety: 100, 
+				foodcategory: "Vegetable"
+			},
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
