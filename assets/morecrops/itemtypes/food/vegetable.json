@@ -8,6 +8,7 @@
 		"*beet*": {
 			displaycaseable: true,
 			shelvable: true,
+			inContainerTexture: { base: "morecrops:block/barrel/raw-{vegetable}" },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
@@ -28,6 +29,7 @@
 		"*cauliflower*": {
 			displaycaseable: true,
 			shelvable: true,
+			inContainerTexture: { base: "morecrops:block/barrel/raw-{vegetable}" },
 			nutritionPropsWhenInMeal: {
 				satiety: 450, 
 				foodcategory: "Vegetable"
@@ -36,6 +38,7 @@
 		"*eggplant*": {
 			displaycaseable: true,
 			shelvable: true,
+			inContainerTexture: { base: "morecrops:block/barrel/raw-{vegetable}" },
 			nutritionPropsWhenInMeal: {
 				satiety: 150, 
 				foodcategory: "Fruit"
@@ -44,6 +47,7 @@
 		"*": {
 			displaycaseable: true,
 			shelvable: true,
+			inContainerTexture: { base: "morecrops:block/barrel/raw-{vegetable}" },
 			nutritionPropsWhenInMeal: {
 				satiety: 150, 
 				foodcategory: "Vegetable"

@@ -65,7 +65,7 @@
 				translation: { x: 0, y: 0, z: 0 },
 				scale: 1 
 			},
-    		inPieProperties: { texture: "morecrops:fill-cauliflower", partType: 'Filling' },
+    		inPieProperties: { texture: "morecrops:block/food/pie/fill-cauliflower", partType: 'Filling' },
 		},
 
 		"*-eggplant": {
@@ -85,7 +85,7 @@
 				translation: { x: 0, y: 0, z: 0 },
 				scale: 1 
 			},
-    		inPieProperties: { texture: "morecrops:fill-eggplant", partType: 'Filling' },
+    		inPieProperties: { texture: "morecrops:block/food/pie/fill-eggplant", partType: 'Filling' },
 		},
 		"*-pickledcauliflower": {
 			nutritionPropsWhenInMeal: { satiety: 310, foodcategory: "Fruit" },
@@ -100,7 +100,7 @@
 				endScaleY: 1.0,
 				resultCode: "morecrops:cookedchoppedvegetable-pickledcauliflower-partbaked",
 			},
-    		inPieProperties: { texture: "morecrops:fill-pickledcauliflower", partType: 'Filling' },
+    		inPieProperties: { texture: "morecrops:block/food/pie/fill-pickledcauliflower", partType: 'Filling' },
 		},
 
 		"*-pickledeggplant": {
@@ -116,7 +116,7 @@
 				endScaleY: 1.0,
 				resultCode: "morecrops:cookedchoppedvegetable-pickledeggplant-partbaked",
 			},
-    		inPieProperties: { texture: "morecrops:fill-pickledeggplant", partType: 'Filling' }
+    		inPieProperties: { texture: "morecrops:block/food/pie/fill-pickledeggplant", partType: 'Filling' }
 		},
 		"*-pickled*": {
 			nutritionPropsWhenInMeal: { satiety: 140, foodcategory: "Vegetable" },
@@ -131,7 +131,7 @@
 				endScaleY: 1.0,
 				resultCode: "morecrops:cookedchoppedvegetable-{type}-partbaked",
 			},
-    		inPieProperties: { texture: "morecrops:fill-{type}", partType: 'Filling' },
+    		inPieProperties: { texture: "morecrops:block/food/pie/fill-{type}", partType: 'Filling' },
 		},
 		"*": {
 			nutritionPropsWhenInMeal: { satiety: 160, foodcategory: "Vegetable" },
@@ -146,7 +146,7 @@
 				endScaleY: 1.0,
 				resultCode: "morecrops:cookedchoppedvegetable-{type}-partbaked",
 			},
-    		inPieProperties: { texture: "morecrops:fill-{type}", partType: 'Filling' }
+    		inPieProperties: { texture: "morecrops:block/food/pie/fill-{type}", partType: 'Filling' }
 		}
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
