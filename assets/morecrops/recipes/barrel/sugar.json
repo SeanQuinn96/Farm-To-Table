@@ -9,10 +9,18 @@
 		output: { type: "item", code: "morecrops:compost-bagasse", quantity: 1 }
 	},
 	{
-		code: "sugar",
+		code: "canesugar",
 		sealHours: 240,
 		ingredients: [
 			{ type: "item", code: "morecrops:sugarcanesyrup",  litres: 1}
+		],
+		output: { type: "item", code: "morecrops:sugar", quantity: 10 }
+	},
+	{
+		code: "beetsugar",
+		sealHours: 240,
+		ingredients: [
+			{ type: "item", code: "morecrops:sugarbeetsyrup",  litres: 1}
 		],
 		output: { type: "item", code: "morecrops:sugar", quantity: 10 }
 	}

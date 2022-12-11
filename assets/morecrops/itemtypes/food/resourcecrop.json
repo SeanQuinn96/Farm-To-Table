@@ -5,6 +5,20 @@
 		{ code: "crop", states: ["sugarbeet"] },
 	],
 	attributesByType: {
+	"*-sugarbeet": {
+			displaycaseable: true,
+			shelvable: true,
+			inContainerTexture: { base: "morecrops:block/barrel/raw-{crop}" },
+			onDisplayTransform: {
+				translation: { x: 0.1, y: -0.4, z: 0.1 },
+				rotation: { x: 2, y: -47, z: -91 }
+			},
+			juiceableProperties: {
+				litresPerItem: 0.15625,
+				liquidStack: { type: "item", code: "morecrops:sugarbeetjuice", stacksize: 1 },
+				pressedStack: { type: "item", code: "morecrops:pressedmashbeet", stacksize: 1 }
+			}
+		},
 		"*": {
 			displaycaseable: true,
 			shelvable: true,
@@ -12,8 +26,10 @@
 		}
 	},
 	
-	shape: {
-		base: "morecrops:item/crop/vegetable/{crop}"
+	shapeByType: {
+		"*-sugarbeet": {
+			base: "morecrops:item/crop/vegetable/sugarbeet"
+		}
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	nutritionPropsByType: {
@@ -27,11 +43,6 @@
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.5
 		}]
-	},
-	grindingPropsByType: {
-		"*-sugarbeet": { 
-			grindedStack: { type: "item", code: "morecrops:sugar", stacksize: 1 },
-		}
 	},
 	groundTransformByType: {
 		"*-sugarbeet": { 
@@ -49,9 +60,10 @@
 	},
 	guiTransformByType: {
 		"*-sugarbeet": { 
-			translation: { x: -21, y: 42, z: 0 },
-			rotation: { x: 3, y: 142, z: 17 },
-			scale: 3.24
+			translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 180, y: 0, z: 32 },
+		origin: { x: 0.5, y: 0.3, z: 0.6 },
+		scale: 3.57
 		}
 	},
 	materialDensity: 600

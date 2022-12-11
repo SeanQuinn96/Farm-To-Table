@@ -1,0 +1,20 @@
+{
+	code: "flour",
+	maxstacksize: 64,
+	attributes: {
+		dissolveInWater: true
+	},
+	variantgroups: [
+		{ code: "grain", states: ["oat"] },
+	],
+	texture: { base: "item/food/grain/{grain}-flour" },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	materialDensity: 600,
+	transitionableProps: [{
+		type: "Perish",
+		freshHours: { avg: 4320 },
+		transitionHours: { avg: 336 },
+		transitionedStack: { type: "item", code: "game:rot" },
+		transitionRatio: 0.25
+	}]
+}

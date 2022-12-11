@@ -2,9 +2,10 @@
 	code: "sugar",
 	maxstacksize: 64,
 	attributes: {
+		inContainerTexture: { base: "morecrops:block/barrel/sugar" },
 		dissolveInWater: true
 	},
-	nutritionPropsByType: {
+	nutritionProps: {
 		satiety: 10, foodcategory: "Fruit"
 	},
 	texture: { base: "morecrops:item/food/sugar" },
