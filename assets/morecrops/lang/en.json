@@ -53,6 +53,19 @@
 	"morecrops:block-crop-yam-5": 												"Growing Yam",
 	"morecrops:block-crop-yam-6": 												"Growing Yam",
 	"morecrops:block-crop-yam-7": 												"Grown Yam",
+	"morecrops:block-crop-sugarcane-1": 										"Growing Sugarcane",
+	"morecrops:block-crop-sugarcane-2": 										"Growing Sugarcane",
+	"morecrops:block-crop-sugarcane-3": 										"Growing Sugarcane",
+	"morecrops:block-crop-sugarcane-4": 										"Growing Sugarcane",
+	"morecrops:block-crop-sugarcane-5": 										"Growing Sugarcane",
+	"morecrops:block-crop-sugarcane-6": 										"Growing Sugarcane",
+	"morecrops:block-crop-sugarcane-7": 										"Growing Sugarcane",
+	"morecrops:block-crop-sugarcane-8": 										"Grown Sugarcane",
+	"morecrops:block-crop-sugarbeet-1": 										"Growing Sugar Beet",
+	"morecrops:block-crop-sugarbeet-2": 										"Growing Sugar Beet",
+	"morecrops:block-crop-sugarbeet-3": 										"Growing Sugar Beet",
+	"morecrops:block-crop-sugarbeet-4": 										"Growing Sugar Beet",
+	"morecrops:block-crop-sugarbeet-5": 										"Grown Sugar Beet",
 	
 	"morecrops:item-seeds-beet": 												"Beet Seeds",
 	"morecrops:item-seeds-cauliflower": 										"Cauliflower Seeds",
@@ -61,6 +74,9 @@
 	"morecrops:item-seeds-jalapeno": 											"Jalapeno Seeds",
 	"morecrops:item-seeds-potato": 												"Potato Seeds",
 	"morecrops:item-seeds-yam": 												"Yam Seeds",
+	"morecrops:item-seeds-pepperbell": 											"Bellpepper Seeds",
+	"morecrops:item-seeds-sugarbeet": 											"Sugar Beet Seeds",
+	"morecrops:item-seeds-sugarcane": 											"Sugarcane Seeds",
 	
 	"morecrops:item-vegetable-beet": 											"Beet",
 	"morecrops:item-vegetable-cauliflower": 									"Cauliflower",
@@ -69,6 +85,8 @@
 	"morecrops:item-vegetable-jalapeno": 										"Jalapeno",
 	"morecrops:item-vegetable-potato": 											"Potato",
 	"morecrops:item-vegetable-yam": 											"Yam",
+	"morecrops:item-resourcecrop-sugarbeet": 									"Sugar Beet",
+	"morecrops:block-sugarcane": 												"Sugarcane",
 
 	
 	"morecrops:recipeingredient-item-vegetable-beet": 							"beet",
@@ -763,6 +781,7 @@
 	"pie-single-morecrops:choppedvegetable-pickledyam-charred": 				"Yam Pie (Burnt)",
 	
 	"morecrops:item-cornflour-corn": 											"Cornflour",
+	"morecrops:item-sugar": 													"Sugar",
 	
 	"morecrops:item-cornbread-corn-partbaked": 									"Cornbread (Part-baked)",
 	"morecrops:item-cornbread-corn-perfect": 									"Cornbread (Baked)",

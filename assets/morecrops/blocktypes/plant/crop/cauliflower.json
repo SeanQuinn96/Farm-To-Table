@@ -6,7 +6,7 @@
 		{ code: "type", states: ["cauliflower"] },
 		{ code: "stage", states: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"] },
 	],
-	creativeinventory: { "general": [""], "plants": [""] },
+	creativeinventory: { "general": ["*-12"], "plants": ["*-12"] },
 	renderpass: "OpaqueNoCull",
 	randomizeRotations: true,
 	shapeByType: {
@@ -74,7 +74,7 @@
 		nutrientConsumption: 40,
 		growthStages: 12,
 		totalGrowthDays: 13,
-		heatDamageAbove: 35
+		heatDamageAbove: 25
 	},
 	collisionbox: null,
 	selectionbox: { x1: 0.0625, y1: 0, z1: 0.0625, x2: 0.9375, y2: 0.25, z2: 0.9375 },

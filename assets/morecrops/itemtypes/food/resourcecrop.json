@@ -1,0 +1,58 @@
+{
+	code: "resourcecrop",
+	maxstacksize: 64,
+	variantgroups: [
+		{ code: "crop", states: ["sugarbeet"] },
+	],
+	attributesByType: {
+		"*": {
+			displaycaseable: true,
+			shelvable: true,
+			inContainerTexture: { base: "morecrops:block/barrel/raw-{crop}" }
+		}
+	},
+	
+	shape: {
+		base: "morecrops:item/crop/vegetable/{crop}"
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	nutritionPropsByType: {
+		"*": { satiety: 100, foodcategory: "Vegetable" },
+	},
+	transitionablePropsByType: {
+		"*": [{
+			type: "Perish",
+			freshHours: { avg: 504 },
+			transitionHours: { avg: 96 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.5
+		}]
+	},
+	grindingPropsByType: {
+		"*-sugarbeet": { 
+			grindedStack: { type: "item", code: "morecrops:sugar", stacksize: 1 },
+		}
+	},
+	groundTransformByType: {
+		"*-sugarbeet": { 
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.5, z: 0.5299 },
+			scale: 4.42
+		}
+	},
+	fpHandTransformByType: {
+		"*-sugarbeet": { 
+			rotation: { x: 180, y: 90, z: -145 },
+			scale: 3.83
+		}
+	},
+	guiTransformByType: {
+		"*-sugarbeet": { 
+			translation: { x: -21, y: 42, z: 0 },
+			rotation: { x: 3, y: 142, z: 17 },
+			scale: 3.24
+		}
+	},
+	materialDensity: 600
+}

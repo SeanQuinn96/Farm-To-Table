@@ -6,7 +6,7 @@
 		{ code: "type", states: ["beet"] },
 		{ code: "stage", states: ["1", "2", "3", "4", "5"] },
 	],
-	creativeinventory: { "general": [""], "plants": [""] },
+	creativeinventory: { "general": ["*-5"], "plants": ["*-5"] },
 	renderpass: "OpaqueNoCull",
 	shapeByType: {
 		"*-1": { base: "morecrops:block/plant/crop/beet/stage1" },
@@ -66,7 +66,7 @@
 		nutrientConsumption: 31,
 		growthStages: 5,
 		totalGrowthDays: 6,
-		heatDamageAbove: 35
+		heatDamageAbove: 27
 	},
 	collisionbox: null,
 	selectionbox: { x1: 0.0625, y1: 0, z1: 0.0625, x2: 0.9375, y2: 0.25, z2: 0.9375 },
