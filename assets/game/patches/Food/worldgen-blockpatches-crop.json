@@ -9,7 +9,7 @@
         "morecrops:crop-potato-4",
         "morecrops:crop-potato-6"
       ],
-      "minTemp": 3,
+      "minTemp": 4,
       "maxTemp": 35,
       "minRain": 0.18,
       "maxRain": 0.75,
@@ -192,6 +192,52 @@
         "var": 5
       },
       "chance": 0.08
+    },
+    "file": "worldgen/blockpatches/crop.json"
+  },
+    {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of sugarcane",
+      "blockCodes": [
+        "morecrops:crop-sugarcane-4",
+        "morecrops:crop-sugarcane-6",
+        "morecrops:crop-sugarcane-8"
+      ],
+      "minTemp": 23,
+      "maxTemp": 35,
+      "minRain": 0.16,
+      "maxRain": 0.7,
+      "maxForest": 0.2,
+      "quantity": {
+        "avg": 5,
+        "var": 5
+      },
+      "chance": 0.06
+    },
+    "file": "worldgen/blockpatches/crop.json"
+  },
+    {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of sugarbeets",
+      "blockCodes": [
+        "morecrops:crop-sugarbeet-2",
+        "morecrops:crop-sugarbeet-3",
+        "morecrops:crop-sugarbeet-5"
+      ],
+      "minTemp": 10,
+      "maxTemp": 26,
+      "minRain": 0.45,
+      "maxRain": 0.85,
+      "maxForest": 0.34,
+      "quantity": {
+        "avg": 5,
+        "var": 5
+      },
+      "chance": 0.07
     },
     "file": "worldgen/blockpatches/crop.json"
   }

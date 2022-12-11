@@ -4,26 +4,23 @@
 	behaviors: [{name: "Unstable"}],
 	variantgroups: [
 		{ code: "type", states: ["pepperbell"] },
-		{ code: "stage", states: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18"] },
+		{ code: "stage", states: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"] },
 	],
-	creativeinventory: { "general": [""], "plants": [""] },
+	creativeinventory: { "general": ["*"], "plants": ["*"] },
 	renderpass: "OpaqueNoCull",
 	shapeByType: {
-		"*-1": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-small", scale: 0.89 },
-		"*-2": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-small", scale: 0.89 },
-		"*-3": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-small", scale: 0.89 },
-		"*-4": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-small", scale: 0.89 },
-		"*-5": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-small", scale: 0.89 },
-		"*-6": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-6", scale: 0.89 },
-		"*-7": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-7", scale: 0.89 },
-		"*-8": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-8", scale: 0.89 },
-		"*-9": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-10", scale: 0.89 },
-		"*-10": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-10", scale: 0.89 },
-		"*-16": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-fruiting", scale: 0.89,},
-		"*-17": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-fruiting", scale: 0.99 },
-		"*-18": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-fruiting", scale: 1.09 },
-		"*": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-fullgrown", scale: 0.89 }
-	},
+        "*-1": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-small", scale: 0.89 },
+        "*-2": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-small", scale: 0.89 },
+        "*-3": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-small", scale: 0.89 },
+        "*-4": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-small", scale: 0.89 },
+        "*-5": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-small", scale: 0.89 },
+        "*-6": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-6", scale: 0.89 },
+        "*-7": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-7", scale: 0.89 },
+        "*-8": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-8", scale: 0.89 },
+        "*-9": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-10", scale: 0.89 },
+        "*-11": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-fruiting", scale: 1.09 },
+        "*": { base: "morecrops:block/plant/crop/bellpepper/bellpepper-fullgrown", scale: 0.99 }
+    },
 	blockmaterial: "Plant",
 	faceCullMode: "NeverCull",
 	randomizeRotations: true,
@@ -58,19 +55,10 @@
 	},
 	rainPermeable: false,
 	dropsByType: {
-		"*-14": [
-			{ type: "item", code: "morecrops:seeds-{type}", quantity: { avg: 1.05 }  }
+		"*-10": [
+			{ type: "item", code: "morecrops:seeds-{type}", quantity: { avg: 1 }  }
 		],
-		"*-15": [
-			{ type: "item", code: "morecrops:seeds-{type}", quantity: { avg: 1.09 }  }
-		],
-		"*-16": [
-			{ type: "item", code: "morecrops:seeds-{type}", quantity: { avg: 1.09 }  }
-		],
-		"*-17": [
-			{ type: "item", code: "morecrops:seeds-{type}", quantity: { avg: 1.09 }  }
-		],
-		"*-18": [
+		"*-11": [
 			{ type: "item", code: "morecrops:seeds-{type}", quantity: { avg: 1.09 }  },
 			{ type: "item", code: "game:vegetable-bellpepper", quantity: { avg: 6, var: 2 }  }
 		],
@@ -83,7 +71,8 @@
 		nutrientConsumption: 20,
 		growthStages: 18,
 		totalGrowthDays: 8,
-		coldDamageBelow: 5,
+		heatDamageAbove: 35,
+		coldDamageBelow: 5
 	},
 	collisionbox: null,
 	selectionbox: { x1: 0.0625, y1: 0, z1: 0.0625, x2: 0.9375, y2: 0.25, z2: 0.9375 },

@@ -6,7 +6,7 @@
 		{ code: "type", states: ["corn"] },
 		{ code: "stage", states: ["1", "2", "3", "4", "5", "6", "7", "8", "9"] },
 	],
-	creativeinventory: { "general": [""], "plants": [""] },
+	creativeinventory: { "general": ["*"], "plants": ["*"] },
 	renderpass: "OpaqueNoCull",
 	shape: { base: "morecrops:block/plant/crop/corn/stage{stage}" },
 	blockmaterial: "Plant",
@@ -48,6 +48,7 @@
 		nutrientConsumption: 35,
 		growthStages: 9,
 		totalGrowthDays: 10,
+		heatDamageAbove: 35
 	},
 	collisionbox: null,
 	selectionbox: { x1: 0.0625, y1: 0, z1: 0.0625, x2: 0.9375, y2: 0.25, z2: 0.9375 },

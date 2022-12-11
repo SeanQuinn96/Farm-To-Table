@@ -33,6 +33,14 @@
 			nutritionPropsWhenInMeal: {
 				satiety: 450, 
 				foodcategory: "Vegetable"
+			},
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "morecrops:cookedvegetable-{vegetable}-partbaked"
 			}
 		},
 		"*eggplant*": {
@@ -42,7 +50,15 @@
 			nutritionPropsWhenInMeal: {
 				satiety: 150, 
 				foodcategory: "Fruit"
-			}
+			},
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "morecrops:cookedvegetable-{vegetable}-partbaked"
+			},
 		},
 		"*": {
 			displaycaseable: true,
@@ -68,7 +84,7 @@
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	combustiblePropsByType: {
-		"*": {
+		"@*-(beet|cauliflower|corn|eggplant|jalapeno|potato|yam)": {
 			meltingPoint: 150,
 			meltingDuration: 20,
 			smeltedRatio: 1,

@@ -1,0 +1,13 @@
+{
+	code: "sugar",
+	maxstacksize: 64,
+	attributes: {
+		dissolveInWater: true
+	},
+	nutritionPropsByType: {
+		satiety: 10, foodcategory: "Fruit"
+	},
+	texture: { base: "morecrops:item/food/sugar" },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	materialDensity: 600
+}
