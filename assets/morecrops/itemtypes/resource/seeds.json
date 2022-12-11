@@ -3,7 +3,7 @@
 	class: "ItemPlantableSeed",
 	maxstacksize: 64,
 	variantgroups: [
-		{ code: "type", states: ["beet", "cauliflower", "corn", "eggplant", "jalapeno", "potato", "yam", "pepperbell", "sugarcane", "sugarbeet"] },
+		{ code: "type", states: ["beet", "cauliflower", "corn", "eggplant", "jalapeno", "potato", "yam", "pepperbell", "sugarcane", "sugarbeet", "oat"] },
 	],
 	texture: { base: "morecrops:item/resource/seeds/{type}" },
 	creativeinventory: { "general": ["*"], "items": ["*"] },

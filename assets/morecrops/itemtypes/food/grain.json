@@ -1,0 +1,34 @@
+{
+	code: "grain",
+	maxstacksize: 64,
+	variantgroups: [
+		{ code: "grain", states: ["oat"] },
+	],
+	attributesByType: {
+		"*-oat": { "nutritionPropsWhenInMeal": { satiety: 120, foodcategory: "Grain" } },  
+		"*": { "nutritionPropsWhenInMeal": { satiety: 240, foodcategory: "Grain" } }
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	texture: { base: "morecrops:item/food/grain/{grain}-grain" },
+	nutritionPropsByType: {
+		"*-oat": { 
+			satiety: 30, 
+			foodcategory: "Grain"
+		},
+		"*": {
+			satiety: 60, 
+			foodcategory: "Grain"
+		}
+	},
+	transitionableProps: [{
+		type: "Perish",
+		freshHours: { avg: 2160 },
+		transitionHours: { avg: 224 },
+		transitionedStack: { type: "item", code: "game:rot" },
+		transitionRatio: 0.25
+	}],
+	grindingProps: {
+		grindedStack: { type: "item", code: "morecrops:flour-{grain}" }
+	},
+	materialDensity: 600
+}
