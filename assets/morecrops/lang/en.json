@@ -748,6 +748,9 @@
 	"game:meal-ingredient-soup-primary-cookedchoppedvegetable-pickledpotato-charred": 						"burnt chopped pickled potato",
 	"game:meal-ingredient-soup-primary-cookedchoppedvegetable-pickledyam-charred": 							"burnt chopped pickled yam",
 	
+	"game:meal-ingredient-porridge-primary-grain-oat": 														"oat",
+	"game:meal-ingredient-porridge-secondary-grain-oat": 														"oat",
+	
 	"pie-single-morecrops:choppedvegetable-beet-raw": 					"Beet pie (raw)",
 	"pie-single-morecrops:choppedvegetable-beet-partbaked": 			"Beet pie (part-baked)",
 	"pie-single-morecrops:choppedvegetable-beet-perfect": 				"Beet pie (baked)",
