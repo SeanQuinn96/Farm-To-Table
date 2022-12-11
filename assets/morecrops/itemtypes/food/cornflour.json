@@ -7,7 +7,7 @@
 	variantgroups: [
 		{ code: "type", states: ["corn" ] },
 	],
-	texture: { base: "morecrops:item/food/corn-flour" },
+	texture: { base: "morecrops:item/food/grain/corn-flour" },
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	materialDensity: 600,
 	transitionableProps: [{

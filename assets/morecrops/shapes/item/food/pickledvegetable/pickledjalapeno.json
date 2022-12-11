@@ -9,7 +9,8 @@
 	},
 	"textures": {
 		"jalapeno": "morecrops:item/food/pickledvegetable/jalapeno",
-		"stemandlsmallleaves": "morecrops:block/plant/crop/jalapeno/stemandlsmallleaves"
+		"stemandlsmallleaves": "morecrops:block/plant/crop/jalapeno/stemandlsmallleaves",
+		"largeleavesjalapenos": "morecrops:block/plant/crop/jalapeno/largeleavesjalapenos"
 	},
 	"elements": [
 		{
