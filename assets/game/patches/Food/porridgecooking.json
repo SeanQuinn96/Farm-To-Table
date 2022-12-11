@@ -1,0 +1,15 @@
+[
+  {
+    "op": "addeach",
+	"path": "/ingredients/0/validStacks/-",
+	"value": [
+        {
+          "type": "item",
+          "code": "morecrops:grain-*",
+          "shapeElement": "bowl/grain 1/*"
+        }
+      ],
+    "side": "server",
+    "file": "recipes/cooking/porridge.json"
+  },
+]
