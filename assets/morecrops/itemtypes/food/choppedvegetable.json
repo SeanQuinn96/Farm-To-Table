@@ -7,10 +7,10 @@
 	},
 	texturesByType: {
 		"*-potato": {
-			"cap": {base: "morecrops:fill-potato"},
+			"cap": {base: "morecrops:block/food/pie/fill-potato"},
 		},
 		"*-yam": {
-			"fill-yam": {base: "morecrops:fill-yam"},
+			"fill-yam": {base: "morecrops:block/food/pie/fill-yam"},
 		},
 		"*-corn": {
 			"normal1": {base: "morecrops:block/plant/crop/corn/normal1"},
@@ -22,16 +22,16 @@
 			"beet": {base: "morecrops:block/plant/crop/beet/bulb"},
 		},
 		"*-eggplant": {
-			"fill-eggplant": {base: "morecrops:fill-eggplant"},
+			"fill-eggplant": {base: "morecrops:block/food/pie/fill-eggplant"},
 		},
 		"*-jalapeno": {
 			"jalapeno": {base: "morecrops:block/plant/crop/jalapeno/largeleavesjalapenos"},
 		},
 		"*-pickledpotato": {
-			"cap": {base: "morecrops:fill-pickledpotato"},
+			"cap": {base: "morecrops:block/food/pie/fill-pickledpotato"},
 		},
 		"*-pickledyam": {
-			"fill-pickledyam": {base: "morecrops:fill-pickledyam"},
+			"fill-pickledyam": {base: "morecrops:block/food/pie/fill-pickledyam"},
 		},
 		"*-pickledcauliflower": {
 			"pickledtop": {base: "morecrops:block/plant/crop/cauliflower/pickledtop"},
@@ -40,7 +40,7 @@
 			"pickledbeet": {base: "morecrops:block/plant/crop/beet/bulb"},
 		},
 		"*-pickledeggplant": {
-			"fill-pickledeggplant": {base: "morecrops:fill-pickledeggplant"},
+			"fill-pickledeggplant": {base: "morecrops:block/food/pie/fill-pickledeggplant"},
 		},
 		"*-pickledjalapeno": {
 			"pickledjalapeno": {base: "morecrops:block/plant/crop/jalapeno/largeleavesjalapenos"},

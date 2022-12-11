@@ -6,7 +6,7 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textures": {
-		"bread": "item/food/grain/ricebread"
+		"bread": "game:item/food/grain/ricebread"
 	},
 	"elements": [
 		{

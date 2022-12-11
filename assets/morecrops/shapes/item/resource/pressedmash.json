@@ -9,7 +9,7 @@
 		"fill-blueberry": [16,16]
 	},
 	"textures": {
-		"material": "block/food/pie/fill-blueberry"
+		"material": "game:block/food/pie/fill-blueberry"
 	},
 	"elements": [
 		{

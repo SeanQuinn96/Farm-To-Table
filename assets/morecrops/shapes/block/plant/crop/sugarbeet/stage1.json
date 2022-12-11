@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"s1": "morecrops:block/plant/crop/sugarsugarbeet/s1",
+		"s1": "morecrops:block/plant/crop/sugarbeet/s1",
 		"e1": "morecrops:block/plant/crop/sugarbeet/e1"
 	},
 	"elements": [
