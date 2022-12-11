@@ -807,10 +807,10 @@
 	"morecrops:item-pressedmashcane-wet": 										"Wet Sugarcane Mash",
 	"morecrops:item-sugarcanejuice": 											"Sugarcane Juice",
 	"morecrops:incontainer-item-sugarcanejuice": 								"Sugarcane Juice",
-	"game:incontainer-item-sugarcanejuice": 								 			"Sugarcane Juice",
+	"game:incontainer-item-sugarcanejuice": 								 	"Sugarcane Juice",
 	"morecrops:item-sugarcanesyrup": 											"Sugarcane Syrup",
 	"morecrops:incontainer-item-sugarcanesyrup": 								"Sugarcane Syrup",
-	"game:incontainer-item-sugarcanesyrup": 											"Sugarcane Syrup",
+	"game:incontainer-item-sugarcanesyrup": 									"Sugarcane Syrup",
 	"morecrops:item-bagasse": 													"Bagasse",
 	"morecrops:item-compost-bagasse": 											"Bagasse Compost",
 }
