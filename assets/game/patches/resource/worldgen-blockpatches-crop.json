@@ -240,5 +240,28 @@
       "chance": 0.07
     },
     "file": "worldgen/blockpatches/crop.json"
+  },
+    {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of oat",
+      "blockCodes": [
+        "morecrops:crop-oat-2",
+        "morecrops:crop-oat-3",
+        "morecrops:crop-oat-5"
+      ],
+      "minTemp": 10,
+      "maxTemp": 26,
+      "minRain": 0.45,
+      "maxRain": 0.85,
+      "maxForest": 0.34,
+      "quantity": {
+        "avg": 5,
+        "var": 5
+      },
+      "chance": 0.07
+    },
+    "file": "worldgen/blockpatches/crop.json"
   }
 ]
