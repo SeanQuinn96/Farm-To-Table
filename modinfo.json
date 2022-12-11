@@ -1,8 +1,8 @@
 {
   "Type": "content",
   "TextureSize": 32,
-  "Name": "More Crops",
-  "Version": "0.0.1",
+  "Name": "Farm To Table",
+  "Version": "1.0.0",
   "NetworkVersion": null,
   "Description": "Adds more crops to Vintage Story along with uses for them.",
   "Website": "",

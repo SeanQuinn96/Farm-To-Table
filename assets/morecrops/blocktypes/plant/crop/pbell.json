@@ -69,7 +69,7 @@
 	cropProps: {
 		requiredNutrient: "N",
 		nutrientConsumption: 20,
-		growthStages: 18,
+		growthStages: 11,
 		totalGrowthDays: 8,
 		heatDamageAbove: 35,
 		coldDamageBelow: 5
