@@ -4,7 +4,12 @@
 	attributes: {
 		displaycaseable: true,
 		shelvable: true,
-		inContainerTexture: { base: "morecrops:block/barrel/raw-{crop}" }
+		inContainerTexture: { base: "morecrops:block/barrel/raw-{crop}" },
+		juiceableProperties: {
+			litresPerItem: 0.15625,
+			liquidStack: { type: "item", code: "morecrops:sugarcanejuice", stacksize: 1 },
+			pressedStack: { type: "item", code: "morecrops:pressedmashcane", stacksize: 1 }
+		}
 	},
 	"behaviors": [
 		{
@@ -33,10 +38,14 @@
 	shape: {
 		base: "morecrops:item/crop/vegetable/sugarcane"
 	},
+	transitionableProps: [{
+    		type: "Perish",
+    		freshHours: { avg: 500 },
+    		transitionHours: { avg: 24 },
+    		transitionedStack: { type: "item", code: "game:rot" },
+    		transitionRatio: 0.2
+  	}],
 	creativeinventory: { "general": ["*"], "items": ["*"] },
-	grindingProps: {
-		grindedStack: { type: "item", code: "morecrops:sugar", stacksize: 1 }
-	},
 	groundTransform: {
 		translation: { x: 0, y: 0, z: 0 },
 		rotation: { x: 90, y: 0, z: 0 },

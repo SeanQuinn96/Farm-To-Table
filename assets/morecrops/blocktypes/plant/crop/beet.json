@@ -6,7 +6,7 @@
 		{ code: "type", states: ["beet"] },
 		{ code: "stage", states: ["1", "2", "3", "4", "5"] },
 	],
-	creativeinventory: { "general": ["*-5"], "plants": ["*-5"] },
+	creativeinventory: { "general": ["*"], "plants": ["*"] },
 	renderpass: "OpaqueNoCull",
 	shapeByType: {
 		"*-1": { base: "morecrops:block/plant/crop/beet/stage1" },

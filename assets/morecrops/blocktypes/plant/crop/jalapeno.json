@@ -6,7 +6,7 @@
 		{ code: "type", states: ["jalapeno"] },
 		{ code: "stage", states: ["1", "2", "3", "4", "5", "6", "7", "8"] },
 	],
-	creativeinventory: { "general": ["*-8"], "plants": ["*-8"] },
+	creativeinventory: { "general": ["*"], "plants": ["*"] },
 	renderpass: "OpaqueNoCull",
 	shapeByType: {
 		"*-1": { base: "morecrops:block/plant/crop/jalapeno/stage1" },

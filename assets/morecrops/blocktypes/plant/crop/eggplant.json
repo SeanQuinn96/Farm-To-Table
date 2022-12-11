@@ -6,7 +6,7 @@
 		{ code: "type", states: ["eggplant"] },
 		{ code: "stage", states: ["1", "2", "3", "4", "5", "6"] },
 	],
-	creativeinventory: { "general": ["*-6"], "plants": ["*-6"] },
+	creativeinventory: { "general": ["*"], "plants": ["*"] },
 	renderpass: "OpaqueNoCull",
 	randomizeRotations: true,
 	shapeByType: {

@@ -1,0 +1,19 @@
+[
+	{
+		code: "bagassecompost",
+		sealHours: 240,
+		ingredients: [
+			{ type: "item", code: "morecrops:bagasse",  quantity: 4 },
+			{ type: "item", code: "game:waterportion",  litres: 1, consumeLitres: 1 },
+		],
+		output: { type: "item", code: "morecrops:compost-bagasse", quantity: 1 }
+	},
+	{
+		code: "sugar",
+		sealHours: 240,
+		ingredients: [
+			{ type: "item", code: "morecrops:sugarcanesyrup",  litres: 1}
+		],
+		output: { type: "item", code: "morecrops:sugar", quantity: 10 }
+	}
+]

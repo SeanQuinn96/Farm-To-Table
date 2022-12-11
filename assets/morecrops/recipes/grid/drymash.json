@@ -1,0 +1,20 @@
+[  
+	{
+		"ingredientPattern": "K,V",
+		recipeGroup: 1,
+		"ingredients": {
+		  "K": {
+			type: "item",
+			code: "game:knife-*",
+			isTool: true
+		  },
+		  "V": {
+			type: "item",
+			code: "morecrops:pressedmashcane",
+		  }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { type: "item", code: "morecrops:bagasse", quantity: 4 }
+	}
+]
