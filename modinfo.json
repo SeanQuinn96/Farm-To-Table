@@ -2,7 +2,7 @@
   "Type": "content",
   "TextureSize": 32,
   "Name": "Farm To Table",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "NetworkVersion": null,
   "Description": "Adds more crops to Vintage Story along with uses for them.",
   "Website": "",
@@ -10,7 +10,7 @@
   "Authors": [
     "Sean_OCuin"
   ],
-  "Contributors": ["Ледяная Соня", "Minni6in"],
+  "Contributors": ["Ледяная Соня", "NESHK0", "Minni6in"],
   "Side": "Universal",
   "RequiredOnClient": true,
   "RequiredOnServer": true,
