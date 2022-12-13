@@ -63,7 +63,7 @@
 			{ type: "item", code: "game:vegetable-bellpepper", quantity: { avg: 6, var: 2 }  }
 		],
 		"*": [
-			{ type: "item", code: "morecrops:seeds-{type}", quantity: { avg: 0.7 }  },
+			{ type: "item", code: "morecrops:seeds-{type}", quantity: { avg: 0.7 }  }
 		]
 	},
 	cropProps: {
