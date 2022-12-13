@@ -53,10 +53,7 @@
       "blockCodes": [
         "morecrops:crop-cauliflower-4",
         "morecrops:crop-cauliflower-6",
-        "morecrops:crop-cauliflower-9",
-        "morecrops:crop-cauliflower-13",
-        "morecrops:crop-cauliflower-15",
-        "morecrops:crop-cauliflower-16"
+        "morecrops:crop-cauliflower-9"
       ],
       "minTemp": 7,
       "maxTemp": 29,
@@ -153,8 +150,7 @@
         "morecrops:crop-jalapeno-3",
         "morecrops:crop-jalapeno-4",
         "morecrops:crop-jalapeno-5",
-        "morecrops:crop-jalapeno-6",
-        "morecrops:crop-jalapeno-9"
+        "morecrops:crop-jalapeno-6"
       ],
       "minTemp": 8,
       "maxTemp": 25,
@@ -178,9 +174,7 @@
         "morecrops:crop-pepperbell-8",
         "morecrops:crop-pepperbell-9",
         "morecrops:crop-pepperbell-10",
-        "morecrops:crop-pepperbell-11",
-        "morecrops:crop-pepperbell-12",
-        "morecrops:crop-pepperbell-13"
+        "morecrops:crop-pepperbell-11"
       ],
       "minTemp": 8,
       "maxTemp": 25,
