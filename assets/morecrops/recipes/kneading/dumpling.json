@@ -1,0 +1,10 @@
+[
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "expandedfoods:plaindoughball-dough",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "morecrops:choppedvegetable-*", quantity: 1}]},
+	],
+	output: { type: "item", code: "expandedfoods:dumpling-raw", stackSize: 1}
+ }, 
+]
+
