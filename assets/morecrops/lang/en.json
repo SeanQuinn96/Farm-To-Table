@@ -867,4 +867,11 @@
 	"game:recipeingredient-item-choppedvegetable-pickledbeet-insturmentalcase": 		"chopped pickled beet",
 	"game:recipeingredient-item-choppedvegetable-pickledeggplant-insturmentalcase":	"chopped pickled eggplant",
 	"game:recipeingredient-item-choppedvegetable-pickledjalapeno-insturmentalcase":	"chopped pickled jalapeno",
+	
+	"expandedfoods:item-hardtack-oat-raw": 							"Oat hardtack dough",
+	"expandedfoods:item-hardtack-oat-bake1": 						"Oat hardtack",
+	"expandedfoods:item-hardtack-oat-bake2": 						"Oat hardertack",
+	"expandedfoods:item-hardtack-oat-bake3": 						"Oat hardesttack",
+	"expandedfoods:item-hardtack-oat-bake4": 						"Oat irontack",
+	
 }
