@@ -1,0 +1,64 @@
+[
+  {
+    "file": "morecrops:recipes/kneading/doughball.json",
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": true,
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "file": "morecrops:recipes/kneading/doughball.json",
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": true,
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "file": "morecrops:recipes/kneading/doughball.json",
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": true,
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "file": "morecrops:recipes/kneading/doughball.json",
+    "op": "replace",
+    "path": "/3/enabled",
+    "value": true,
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+
+
+  {
+    "op": "add",
+    "path": "/attributes/renderIngredientsByType/*-dough",
+    "value": {"morecrops:flour-oat" : "morecrops:shapes/item/food/bread/flaxbread-doughball.json"},
+    "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/renderIngredientsByType/*-partbaked",
+    "value": {"morecrops:flour-oat" : "morecrops:shapes/item/food/bread/flaxbread-partbakedball.json"},
+    "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/renderIngredientsByType/*-bread",
+    "value": {"morecrops:flour-oat" : "morecrops:shapes/item/food/bread/flaxbread-breadball.json"},
+    "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/renderIngredientsByType/*-charred",
+    "value": {"morecrops:flour-oat" : "morecrops:shapes/item/food/bread/flaxbread-charredball.json"},
+    "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+]
