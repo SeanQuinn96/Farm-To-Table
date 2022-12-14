@@ -1,0 +1,246 @@
+[
+  {
+    "file": "morecrops:recipes/kneading/hardtack.json",
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": true,
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "file": "morecrops:recipes/kneading/hardtack.json",
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": true,
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+
+
+  {
+    "op": "addeach",
+    "path": "/variantgroups/0/states/-",
+    "value": [ "oat" ],
+    "file": "expandedfoods:itemtypes/food/mixing/hardtack.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  
+  
+  { 
+	"op": "move", 
+	"frompath": "/nutritionPropsByType/*-bake1", 
+	"path": "/move-temp",
+	"file": "expandedfoods:itemtypes/food/mixing/hardtack.json", 
+	"side": "Server",
+	dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-oat-bake1",
+    "value": { saturation: 140, foodcategory: "Grain" },
+    "file": "expandedfoods:itemtypes/food/mixing/hardtack.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  { 
+	"op": "move", 
+	"frompath": "/move-temp", 
+	"path": "/nutritionPropsByType/*-bake1",
+	"file": "expandedfoods:itemtypes/food/mixing/hardtack.json", 
+	"side": "Server",
+	dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  { 
+	"op": "move", 
+	"frompath": "/nutritionPropsByType/*-bake2", 
+	"path": "/move-temp",
+	"file": "expandedfoods:itemtypes/food/mixing/hardtack.json", 
+	"side": "Server",
+	dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-oat-bake2",
+    "value": { saturation: 120, foodcategory: "Grain" },
+    "file": "expandedfoods:itemtypes/food/mixing/hardtack.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  { 
+	"op": "move", 
+	"frompath": "/move-temp", 
+	"path": "/nutritionPropsByType/*-bake2",
+	"file": "expandedfoods:itemtypes/food/mixing/hardtack.json", 
+	"side": "Server",
+	dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  { 
+	"op": "move", 
+	"frompath": "/nutritionPropsByType/*-bake3", 
+	"path": "/move-temp",
+	"file": "expandedfoods:itemtypes/food/mixing/hardtack.json", 
+	"side": "Server",
+	dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-oat-bake3",
+    "value": { saturation: 100, foodcategory: "Grain" },
+    "file": "expandedfoods:itemtypes/food/mixing/hardtack.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  { 
+	"op": "move", 
+	"frompath": "/move-temp", 
+	"path": "/nutritionPropsByType/*-bake3",
+	"file": "expandedfoods:itemtypes/food/mixing/hardtack.json", 
+	"side": "Server",
+	dependsOn: [{ "modid": "expandedfoods" }]	
+  },
+  { 
+	"op": "move", 
+	"frompath": "/nutritionPropsByType/*-bake4", 
+	"path": "/move-temp",
+	"file": "expandedfoods:itemtypes/food/mixing/hardtack.json", 
+	"side": "Server",
+	dependsOn: [{ "modid": "expandedfoods" }]	
+  },
+  {
+    "op": "add",
+    "path": "/nutritionPropsByType/*-oat-bake4",
+    "value": { saturation: 80, foodcategory: "Grain" },
+    "file": "expandedfoods:itemtypes/food/mixing/hardtack.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  { 
+	"op": "move", 
+	"frompath": "/move-temp", 
+	"path": "/nutritionPropsByType/*-bake4",
+	"file": "expandedfoods:itemtypes/food/mixing/hardtack.json", 
+	"side": "Server",
+	dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  
+  
+  { 
+	"op": "move", 
+	"frompath": "/shapebytype/hardtack-*-raw", 
+	"path": "/move-temp",
+	"file": "expandedfoods:itemtypes/food/mixing/hardtack.json", 
+	"side": "Server",
+	dependsOn: [{ "modid": "expandedfoods" }]	
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/hardtack-oat-raw",
+    "value": { base: "morecrops:item/food/hardtack/hardtack-{type}-raw"},
+    "file": "expandedfoods:itemtypes/food/mixing/hardtack.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  { 
+	"op": "move", 
+	"frompath": "/move-temp", 
+	"path": "/shapebytype/hardtack-*-raw",
+	"file": "expandedfoods:itemtypes/food/mixing/hardtack.json", 
+	"side": "Server",
+	dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  { 
+	"op": "move", 
+	"frompath": "/shapebytype/hardtack-*-bake1", 
+	"path": "/move-temp",
+	"file": "expandedfoods:itemtypes/food/mixing/hardtack.json", 
+	"side": "Server",
+	dependsOn: [{ "modid": "expandedfoods" }]	
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/hardtack-oat-bake1",
+    "value": { base: "morecrops:item/food/hardtack/hardtack-{type}-partbaked"},
+    "file": "expandedfoods:itemtypes/food/mixing/hardtack.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  { 
+	"op": "move", 
+	"frompath": "/move-temp", 
+	"path": "/shapebytype/hardtack-*-bake1",
+	"file": "expandedfoods:itemtypes/food/mixing/hardtack.json", 
+	"side": "Server",
+	dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  { 
+	"op": "move", 
+	"frompath": "/shapebytype/hardtack-*-bake2", 
+	"path": "/move-temp",
+	"file": "expandedfoods:itemtypes/food/mixing/hardtack.json", 
+	"side": "Server",
+	dependsOn: [{ "modid": "expandedfoods" }]	
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/hardtack-oat-bake2",
+    "value": { base: "morecrops:item/food/hardtack/hardtack-{type}-baked"},
+    "file": "expandedfoods:itemtypes/food/mixing/hardtack.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  { 
+	"op": "move", 
+	"frompath": "/move-temp", 
+	"path": "/shapebytype/hardtack-*-bake2",
+	"file": "expandedfoods:itemtypes/food/mixing/hardtack.json", 
+	"side": "Server",
+	dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  { 
+	"op": "move", 
+	"frompath": "/shapebytype/hardtack-*-bake3", 
+	"path": "/move-temp",
+	"file": "expandedfoods:itemtypes/food/mixing/hardtack.json", 
+	"side": "Server",
+	dependsOn: [{ "modid": "expandedfoods" }]	
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/hardtack-oat-bake3",
+    "value": { base: "morecrops:item/food/hardtack/hardtack-{type}-baked"},
+    "file": "expandedfoods:itemtypes/food/mixing/hardtack.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  { 
+	"op": "move", 
+	"frompath": "/move-temp", 
+	"path": "/shapebytype/hardtack-*-bake3",
+	"file": "expandedfoods:itemtypes/food/mixing/hardtack.json", 
+	"side": "Server",
+	dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  { 
+	"op": "move", 
+	"frompath": "/shapebytype/hardtack-*-bake4", 
+	"path": "/move-temp",
+	"file": "expandedfoods:itemtypes/food/mixing/hardtack.json", 
+	"side": "Server",
+	dependsOn: [{ "modid": "expandedfoods" }]	
+  },
+  {
+    "op": "add",
+    "path": "/shapebytype/hardtack-oat-bake4",
+    "value": { base: "morecrops:item/food/hardtack/hardtack-{type}-charred"},
+    "file": "expandedfoods:itemtypes/food/mixing/hardtack.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  { 
+	"op": "move", 
+	"frompath": "/move-temp", 
+	"path": "/shapebytype/hardtack-*-bake4",
+	"file": "expandedfoods:itemtypes/food/mixing/hardtack.json", 
+	"side": "Server",
+	dependsOn: [{ "modid": "expandedfoods" }]
+  },
+]
