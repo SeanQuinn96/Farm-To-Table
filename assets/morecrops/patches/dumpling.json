@@ -7,7 +7,6 @@
     "dependsOn": [{ "modid": "expandedfoods" }]
   },
 
-
   {
     "op": "add",
     "path": "/attributes/renderIngredientsByType/*-raw",
