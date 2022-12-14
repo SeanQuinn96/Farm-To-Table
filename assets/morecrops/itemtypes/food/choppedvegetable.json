@@ -151,20 +151,12 @@
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	nutritionPropsByType: {
-		"*-potato": { satiety: 145, foodcategory: "Vegetable" },
-		"*-yam": { satiety: 145, foodcategory: "Vegetable" },
-		"*-corn": { satiety: 260, foodcategory: "Vegetable" },
-		"*-cauliflower": { satiety: 350, foodcategory: "Vegetable" },
-		"*-beet": { satiety: 145, foodcategory: "Vegetable" },
-		"*-eggplant": { satiety: 220, foodcategory: "Fruit" },
-		"*-jalapeno": { satiety: 145, foodcategory: "Vegetable" },
-
-		"*-pickledpotato": { satiety: 135, foodcategory: "Vegetable" },
-		"*-pickledyam": { satiety: 135, foodcategory: "Vegetable" },
-		"*-cauliflower": { satiety: 330, foodcategory: "Vegetable" },
-		"*-pickledbeet": { satiety: 135, foodcategory: "Vegetable" },
-		"*-pickledeggplant": { satiety: 210, foodcategory: "Fruit" },
-		"*-pickledjalapeno": { satiety: 135, foodcategory: "Vegetable" },
+		"*-cauliflower": { satiety: 300, foodcategory: "Vegetable" },
+		"*-eggplant": { satiety: 100, foodcategory: "Fruit" },
+		"*-pickledcauliflower": { satiety: 240, foodcategory: "Vegetable" },
+		"*-pickledeggplant": { satiety: 80, foodcategory: "Fruit" },
+		"*pickled*": { satiety: 80, foodcategory: "Vegetable" },
+		"*": { satiety: 100, foodcategory: "Vegetable" },
 
 	},
 	combustiblePropsByType: {
