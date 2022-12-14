@@ -1,0 +1,78 @@
+[
+  {
+    "file": "morecrops:recipes/kneading/pasta.json",
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": true,
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "file": "morecrops:recipes/grid/pastaprep.json",
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": true,
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "file": "morecrops:recipes/grid/pastaprep.json",
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": true,
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "file": "morecrops:recipes/grid/pastaprep.json",
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": true,
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "file": "morecrops:recipes/grid/pastaprep.json",
+    "op": "replace",
+    "path": "/3/enabled",
+    "value": true,
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+  {
+    "file": "morecrops:recipes/grid/pastaprep.json",
+    "op": "replace",
+    "path": "/4/enabled",
+    "value": true,
+    "dependsOn": [{ "modid": "expandedfoods" }]
+  },
+
+
+  {
+    "op": "add",
+    "path": "/attributes/renderIngredientsByType/*-dough",
+    "value": {"morecrops:flour-oat" : "morecrops:shapes/item/food/bread/pasta/flax-pastaball.json"},
+    "file": "expandedfoods:itemtypes/food/mixing/pasta.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/renderIngredientsByType/*-flat",
+    "value": {"morecrops:flour-oat" : "morecrops:shapes/item/food/bread/pasta/flax-pasta.json"},
+    "file": "expandedfoods:itemtypes/food/mixing/pasta.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/renderIngredientsByType/*-cut",
+    "value": {"morecrops:flour-oat" : "morecrops:shapes/item/food/bread/pasta/flax-pastacut.json"},
+    "file": "expandedfoods:itemtypes/food/mixing/pasta.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/renderIngredientsByType/*-cooked",
+    "value": {"morecrops:flour-oat" : "morecrops:shapes/item/food/bread/pasta/flax-pastacooked.json"},
+    "file": "expandedfoods:itemtypes/food/mixing/pasta.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
+]
