@@ -26,6 +26,23 @@
 				rotation: { x: 2, y: -47, z: -91 }
 			}
 		},
+		"*corn*": {
+			displaycaseable: true,
+			shelvable: true,
+			inContainerTexture: { base: "morecrops:block/barrel/raw-{vegetable}" },
+			bakingProperties: {
+				temp: 100,
+				levelFrom: 0.75,
+				levelTo: 1,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "morecrops:cookedvegetable-beet-partbaked"
+			},
+			nutritionPropsWhenInMeal: {
+				satiety: 150, 
+				foodcategory: "Vegetable"
+			}
+		},
 		"*cauliflower*": {
 			displaycaseable: true,
 			shelvable: true,

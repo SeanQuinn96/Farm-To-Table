@@ -815,6 +815,9 @@
 	"morecrops:item-cornbread-corn-charred": 									"Cornbread (charred)",
 	"morecrops:item-cornbreaddough-corn": 										"Cornbread dough",
 	
+	"morecrops:item-foodoilportion-corn": 										"Corn oil",
+	"morecrops:incontainer-item-foodoilportion-corn": 							"Corn oil",
+	"game:incontainer-item-foodoilportion-corn": 								"Corn oil",
 	"morecrops:item-pressedmashcane-dry": 										"Dry sugarcane mash",
 	"morecrops:item-pressedmashcane-wet": 										"Wet sugarcane mash",
 	"morecrops:item-pressedmashbeet-dry": 										"Dry sugar beet mash",
@@ -873,5 +876,6 @@
 	"expandedfoods:item-hardtack-oat-bake2": 						"Oat hardertack",
 	"expandedfoods:item-hardtack-oat-bake3": 						"Oat hardesttack",
 	"expandedfoods:item-hardtack-oat-bake4": 						"Oat irontack",
+	
 	
 }
