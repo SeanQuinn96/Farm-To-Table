@@ -1,0 +1,67 @@
+[
+	{
+    "op": "add",
+    "path": "/attributes/contentConfig/-",
+    "value": {
+				code: "bagasse",
+				content: { type: "item", code: "morecrops:bagasse" }, 
+				quantityPerFillLevel: 8,
+				maxFillLevels: 8,
+				shapesPerFillLevel: [
+									 "block/wood/trough/large/grainfill1", 
+									 "block/wood/trough/large/grainfill1", 
+									 "block/wood/trough/large/grainfill2", 
+									 "block/wood/trough/large/grainfill2", 
+									 "block/wood/trough/large/grainfill3", 
+									 "block/wood/trough/large/grainfill3", 
+									 "block/wood/trough/large/grainfill4", 
+									 "block/wood/trough/large/grainfill4"
+									],
+				foodFor: ["pig-*", "sheep-*"],
+				foodForDesc: "trough-acceptable-pigs-sheep",
+				textureCode: "contents-bagasse"
+		},
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "server"
+    },
+	{
+    "op": "add",
+    "path": "/textures/contents-bagasse",
+    "value": { base: "morecrops:block/wood/trough/large/bagasse" },
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "server"
+    },
+	
+	{
+    "op": "add",
+    "path": "/attributes/contentConfig/-",
+    "value": {
+				code: "sugarbeetcut",
+				content: { type: "item", code: "morecrops:sugarbeetcut" }, 
+				quantityPerFillLevel: 8,
+				maxFillLevels: 8,
+				shapesPerFillLevel: [
+									 "block/wood/trough/large/grainfill1", 
+									 "block/wood/trough/large/grainfill1", 
+									 "block/wood/trough/large/grainfill2", 
+									 "block/wood/trough/large/grainfill2", 
+									 "block/wood/trough/large/grainfill3", 
+									 "block/wood/trough/large/grainfill3", 
+									 "block/wood/trough/large/grainfill4", 
+									 "block/wood/trough/large/grainfill4"
+									],
+				foodFor: ["pig-*", "sheep-*"],
+				foodForDesc: "trough-acceptable-pigs-sheep",
+				textureCode: "contents-sugarbeetcut"
+		},
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "server"
+    },
+	{
+    "op": "add",
+    "path": "/textures/contents-sugarbeetcut",
+    "value": { base: "morecrops:block/wood/trough/large/sugarbeetcut" },
+    "file": "game:blocktypes/wood/trough-large.json",
+    "side": "server"
+    },
+]
