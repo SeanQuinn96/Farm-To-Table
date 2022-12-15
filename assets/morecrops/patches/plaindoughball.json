@@ -60,4 +60,12 @@
     "side": "server",
     dependsOn: [{ "modid": "expandedfoods" }]
   },
+  {
+    "op": "add",
+    "path": "/attributes/expandedNutritionProps",
+    "value": {"morecrops:flour-oat" : { saturation: 100, foodcategory: "Grain" }},
+    "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+    "side": "server",
+    dependsOn: [{ "modid": "expandedfoods" }]
+  },
 ]
